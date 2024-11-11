@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>I Think I Like You</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="title-container">
+        <h1>I Think I Like You - VF</h1>
+        <div class="credits">
+            <p>Retrouvez le comic par Heru & Syd sur le <a href="https://ithinkilikeyou.net" target="_blank" style="color: var(--color_01); text-decoration: none;"><b>site officiel</b></a> et visitez leur <a href="https://ithinkilikeyou.store" target="_blank" style="color: var(--color_01); text-decoration: none;"><b>boutique</b></a>.</p>
+            <p style="font-size: 14px;">Traduction VF par CuterKisser > <a href="https://www.twitch.tv/cuterkisser" target="_blank" style="color: var(--color_01); text-decoration: none;"><b>Twitch</b></a></p>
+        </div>
+    </div>
+
+    <div class="nav-container" id="nav-top"></div>
+
+    <br>
+    <img id="image-viewer" src="1.jpg" alt="Episode Image" oncontextmenu="return false;" ondragstart="return false;">
+
+    <div class="nav-container" id="nav-bottom"></div>
+
+    <script src="episodes.js"></script>
+    <script>
+        const createNav = (id) => {
+            const container = document.getElementById(id);
+
+            const prevButton = document.createElement('button');
+            prevButton.innerHTML = '&#9664;';
+            prevButton.id = `prev-button-${id}`;
+            container.appendChild(prevButton);
+
+            const selector = document.createElement('select');
+            selector.id = `episode-selector-${id}`;
+            episodes.forEach((episode, index) => {
+                const option = document.createElement('option');
+                option.value = episode.value;
+                option.textContent = episode.text;
+                if (episode.disabled) {
+                    option.disabled = true;
+                }
+                selector.appendChild(option);
+            });
+            container.appendChild(selector);
+
+            const nextButton = document.createElement('button');
+            nextButton.innerHTML = '&#9654;';
+            nextButton.id = `next-button-${id}`;
+            container.appendChild(nextButton);
+
+            selector.addEventListener('change', () => {
+                if (selector.selectedIndex < episodes.length - 1 && episodes[selector.selectedIndex].disabled) {
+                    selector.selectedIndex += 1;
+                }
+                updateViewer();
+                window.scrollTo({ top: 0, behavior: 'instant' });
+            });
+
+            return { prevButton, selector, nextButton };
+        };
+
+        const navTop = createNav('nav-top');
+        const navBottom = createNav('nav-bottom');
+
+        const viewer = document.getElementById('image-viewer');
+
+        const updateViewer = () => {
+            viewer.src = navTop.selector.value;
+            updateButtons();
+        };
+
+        const changeEpisode = (direction) => {
+            const selectedIndex = navTop.selector.selectedIndex;
+            let newIndex = selectedIndex;
+
+            do {
+                newIndex -= direction; // Inverser la direction
+            } while (newIndex >= 0 && newIndex < episodes.length && episodes[newIndex].disabled);
+
+            if (newIndex >= 0 && newIndex < episodes.length) {
+                navTop.selector.selectedIndex = newIndex;
+                navBottom.selector.selectedIndex = newIndex;
+                updateViewer();
+                window.scrollTo({ top: 0, behavior: 'instant' });
+            }
+        };
+
+        const updateButtons = () => {
+            let prevIndex = navTop.selector.selectedIndex;
+            do {
+                prevIndex += 1;
+            } while (prevIndex < episodes.length && episodes[prevIndex]?.disabled);
+            navTop.prevButton.disabled = (prevIndex >= episodes.length);
+
+            let nextIndex = navTop.selector.selectedIndex;
+            do {
+                nextIndex -= 1;
+            } while (nextIndex >= 0 && episodes[nextIndex]?.disabled);
+            navTop.nextButton.disabled = (nextIndex < 0);
+
+            navBottom.prevButton.disabled = navTop.prevButton.disabled;
+            navBottom.nextButton.disabled = navTop.nextButton.disabled;
+        };
+
+        navTop.selector.addEventListener('change', () => {
+            navBottom.selector.value = navTop.selector.value;
+            updateViewer();
+            window.scrollTo({ top: 0, behavior: 'instant' });
+        });
+        navBottom.selector.addEventListener('change', () => {
+            navTop.selector.value = navBottom.selector.value;
+            updateViewer();
+            window.scrollTo({ top: 0, behavior: 'instant' });
+        });
+
+        navTop.nextButton.addEventListener('click', () => changeEpisode(1));
+        navTop.prevButton.addEventListener('click', () => changeEpisode(-1));
+        navBottom.nextButton.addEventListener('click', () => changeEpisode(1));
+        navBottom.prevButton.addEventListener('click', () => changeEpisode(-1));
+
+        navTop.selector.selectedIndex = episodes.findIndex(episode => episode.value === '1.jpg');
+        navBottom.selector.selectedIndex = navTop.selector.selectedIndex;
+        updateViewer();
+    </script>
+</body>
+</html>
