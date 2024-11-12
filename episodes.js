@@ -47,5 +47,5 @@ const episodes = [
     { value: '3.jpg', text: '3# Évaluez votre livraison - Très insatisfait', description: 'i think i like you VF episode 3' },
     { value: '2.jpg', text: '2# Statut de livraison - de retour sur le planning', description: 'i think i like you VF episode 2' },
     { value: '1.jpg', text: '1# Livraison de colis', description: 'i think i like you VF episode 1' },
-    { value: '', text: '/\\ Saison 1  /\\', description: 'i think i like you VF saison 1', disabled: true },
+    { value: '', text: '/\\ Saison 1  /\\', description: 'i think i like you VF saison 1', disabled: true }
 ];
