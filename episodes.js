@@ -1,4 +1,8 @@
 const episodes = [
+    { value: '54.jpg', text: '54# Nos chemins se recroisent', description: 'i think i like you VF episode 54' },
+    { value: '53.jpg', text: '53# Bad boy', description: 'i think i like you VF episode 53' },
+    { value: '52.jpg', text: '52# Crise existentielle', description: 'i think i like you VF episode 52' },
+    { value: '51.jpg', text: '51# Tête-à-tête', description: 'i think i like you VF episode 51' },
     { value: '50.jpg', text: '50# Fais tes preuves', description: 'i think i like you VF episode 50' },
     { value: '49.jpg', text: '49# Fratrie', description: 'i think i like you VF episode 49' },
     { value: '48.jpg', text: '48# Urgence', description: 'i think i like you VF episode 48' },
