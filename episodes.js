@@ -1,5 +1,8 @@
 const episodes = [
-    { value: '62.jpg', text: "62# Crimes Nocturnes", description: 'i think i like you VF episode 62' },
+    { value: '65.jpg', text: "65# Courrier reçu !", description: 'i think i like you VF episode 65' },
+    { value: '64.jpg', text: "64# Je t'ai eu !", description: 'i think i like you VF episode 64' },
+    { value: '63.jpg', text: "63# Le lendemain", description: 'i think i like you VF episode 63' },
+    { value: '62.jpg', text: "62# Conneries Nocturnes", description: 'i think i like you VF episode 62' },
     { value: '61.jpg', text: "61# Prêteur sur gages 24h24", description: 'i think i like you VF episode 61' },
     { value: '60.jpg', text: "60# Double perception", description: 'i think i like you VF episode 60' },
     { value: '59.jpg', text: "59# Juste toi et moi", description: 'i think i like you VF episode 59' },
