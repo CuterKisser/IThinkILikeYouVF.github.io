@@ -1,4 +1,7 @@
 const episodes = [
+    { value: '62.jpg', text: "62# Crimes Nocturnes", description: 'i think i like you VF episode 62' },
+    { value: '61.jpg', text: "61# Prêteur sur gages 24h24", description: 'i think i like you VF episode 61' },
+    { value: '60.jpg', text: "60# Double perception", description: 'i think i like you VF episode 60' },
     { value: '59.jpg', text: "59# Juste toi et moi", description: 'i think i like you VF episode 59' },
     { value: '58.jpg', text: "58# Crush", description: 'i think i like you VF episode 58' },
     { value: '57.jpg', text: "57# Retour à la surface", description: 'i think i like you VF episode 57' },
