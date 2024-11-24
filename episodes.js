@@ -1,4 +1,5 @@
 const episodes = [
+    { value: '78.jpg', text: "78# Tourtereaux", description: 'i think i like you VF episode 78' },
     { value: '77.jpg', text: "77# Merci", description: 'i think i like you VF episode 77' },
     { value: '76.jpg', text: "76# L'Intrus", description: 'i think i like you VF episode 76' },
     { value: '75.jpg', text: "75# Nouveau lieu", description: 'i think i like you VF episode 75' },
