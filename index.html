@@ -52,8 +52,9 @@
     </div>
     <div class="title-container">
         <h1>I Think I Like You - VF</h1>
+        <!-- a1 -->
         <div class="credits">
-            <p>Retrouvez le comic par Heru & Syd sur le <a href="https://ithinkilikeyou.net" target="_blank" style="color: var(--color_01); text-decoration: none;"><b>site officiel</b></a>, soutenez-les sur <a href="https://www.patreon.com/IThinkILikeYou" target="_blank" style="color: var(--color_01); text-decoration: none;"><b>Patreon</b></a> et visitez leur <a href="https://ithinkilikeyou.store" target="_blank" style="color: var(--color_01); text-decoration: none;"><b>boutique</b></a>.</p>
+            <p style="font-size: 20px;">Retrouvez le comic par Heru & Syd sur le <a href="https://ithinkilikeyou.net" target="_blank" style="color: var(--color_01); text-decoration: none;"><b>site officiel</b></a>, soutenez-les sur <a href="https://www.patreon.com/IThinkILikeYou" target="_blank" style="color: var(--color_01); text-decoration: none;"><b>Patreon</b></a> et visitez leur <a href="https://ithinkilikeyou.store" target="_blank" style="color: var(--color_01); text-decoration: none;"><b>boutique</b></a>.</p>
 
             <p style="font-size: 16px;">Traduction VF par CuterKisser > <a href="https://www.twitch.tv/cuterkisser" target="_blank" style="color: var(--color_01); text-decoration: none;"><b>Twitch</b></a></p>
         </div>
@@ -117,9 +118,9 @@
         const updateViewer = () => {
             const selectedValue = navTop.selector.value;
             const selectedEpisode = episodes.find(episode => episode.value === selectedValue);
-            if (selectedEpisode) {
+            if (selectedEpisode && selectedEpisode.url) {
                 viewer.src = selectedEpisode.value;
-                window.history.replaceState({}, "", `/${selectedEpisode.url}`);
+                window.history.replaceState({}, "", `?episode=${selectedEpisode.url}`);
             }
             updateButtons();
         };
@@ -174,8 +175,9 @@
         navBottom.prevButton.addEventListener('click', () => changeEpisode(-1));
 
         window.addEventListener('load', () => {
-            const urlSegment = window.location.pathname.split('/').pop();
-            const matchedEpisode = episodes.find(ep => ep.url === urlSegment);
+            const urlParams = new URLSearchParams(window.location.search);
+            const episodeParam = urlParams.get('episode');
+            const matchedEpisode = episodes.find(ep => ep.url === episodeParam);
             if (matchedEpisode) {
                 navTop.selector.value = matchedEpisode.value;
                 navBottom.selector.value = matchedEpisode.value;
