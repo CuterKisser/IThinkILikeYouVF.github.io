@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <title>I Think I Like You (Syd + Heru) - VF</title>
+    <title>I Think I Like You - VF</title>
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -11,7 +11,7 @@
     <!-- End Google Tag Manager -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>I Think I Like You (Syd + Heru) - VF</title>
+    <title>I Think I Like You - VF</title>
     <meta name="title" content="I Think I Like You (Syd + Heru) - VF">
     <meta name="description" content="I Think I Like You - Webcomic BL par Heru et Syd traduit en français. I Think I Like You FR">
     <meta name="keywords" content="i think i like you episode fr, i think i like you vf, I Think I Like You VF, i think i like you fr, I Think I Like You FR, webcomic, BL, boys love, yaoi, traduction française, Heru, Syd, I Think I Like You">
@@ -41,7 +41,6 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-
 <body>
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MDQGCWG5"
@@ -51,20 +50,18 @@
         i think i like you vf
         i think i like you fr
     </div>
-
     <div class="title-container">
-        <h1>I Think I Like You (Syd + Heru) - VF</h1>
+        <h1>I Think I Like You - VF</h1>
         <div class="credits">
-            <p>Retrouvez le comic par Heru & Syd sur le <a href="https://ithinkilikeyou.net" target="_blank" style="color: var(--color_01); text-decoration: none;"><b>site officiel</b></a> et visitez leur <a href="https://ithinkilikeyou.store" target="_blank" style="color: var(--color_01); text-decoration: none;"><b>boutique</b></a>.</p>
-            <p style="font-size: 14px;">Traduction VF par CuterKisser > <a href="https://www.twitch.tv/cuterkisser" target="_blank" style="color: var(--color_01); text-decoration: none;"><b>Twitch</b></a></p>
+            <p>Retrouvez le comic par Heru & Syd sur le <a href="https://ithinkilikeyou.net" target="_blank" style="color: var(--color_01); text-decoration: none;"><b>site officiel</b></a>, soutenez-les sur <a href="https://www.patreon.com/IThinkILikeYou" target="_blank" style="color: var(--color_01); text-decoration: none;"><b>Patreon</b></a> et visitez leur <a href="https://ithinkilikeyou.store" target="_blank" style="color: var(--color_01); text-decoration: none;"><b>boutique</b></a>.</p>
+
+            <p style="font-size: 16px;">Traduction VF par CuterKisser > <a href="https://www.twitch.tv/cuterkisser" target="_blank" style="color: var(--color_01); text-decoration: none;"><b>Twitch</b></a></p>
         </div>
     </div>
-
+    <!--<p style="text-align: center; font-size: 20px;"><a href="hd.html" target="_blank" style="color: var(--color_01); text-decoration: none;"><b>HD Version !</b></a></p>-->
     <div class="nav-container" id="nav-top"></div>
-
     <br>
-    <img id="image-viewer" src="1.jpg" alt="Episode 1 I Think I Like You VF" oncontextmenu="return false;" ondragstart="return false;">
-
+    <img id="image-viewer" src="1.jpg" alt="Patience, l'épisode arrive..." oncontextmenu="return false;" ondragstart="return false;">
     <div class="nav-container" id="nav-bottom"></div>
 
     <script src="episodes.js"></script>
@@ -79,7 +76,6 @@
     <script>
         const createNav = (id) => {
             const container = document.getElementById(id);
-
             const prevButton = document.createElement('button');
             prevButton.innerHTML = '&#9664;';
             prevButton.id = `prev-button-${id}`;
@@ -87,7 +83,7 @@
 
             const selector = document.createElement('select');
             selector.id = `episode-selector-${id}`;
-            episodes.forEach((episode, index) => {
+            episodes.forEach((episode) => {
                 const option = document.createElement('option');
                 option.value = episode.value;
                 option.textContent = episode.text;
@@ -116,11 +112,15 @@
 
         const navTop = createNav('nav-top');
         const navBottom = createNav('nav-bottom');
-
         const viewer = document.getElementById('image-viewer');
 
         const updateViewer = () => {
-            viewer.src = navTop.selector.value;
+            const selectedValue = navTop.selector.value;
+            const selectedEpisode = episodes.find(episode => episode.value === selectedValue);
+            if (selectedEpisode) {
+                viewer.src = selectedEpisode.value;
+                window.history.replaceState({}, "", `/${selectedEpisode.url}`);
+            }
             updateButtons();
         };
 
@@ -173,9 +173,18 @@
         navBottom.nextButton.addEventListener('click', () => changeEpisode(1));
         navBottom.prevButton.addEventListener('click', () => changeEpisode(-1));
 
-        navTop.selector.selectedIndex = episodes.findIndex(episode => episode.value === '1.jpg');
-        navBottom.selector.selectedIndex = navTop.selector.selectedIndex;
-        updateViewer();
+        window.addEventListener('load', () => {
+            const urlSegment = window.location.pathname.split('/').pop();
+            const matchedEpisode = episodes.find(ep => ep.url === urlSegment);
+            if (matchedEpisode) {
+                navTop.selector.value = matchedEpisode.value;
+                navBottom.selector.value = matchedEpisode.value;
+            } else {
+                navTop.selector.selectedIndex = episodes.findIndex(episode => episode.value === '1.jpg');
+                navBottom.selector.selectedIndex = navTop.selector.selectedIndex;
+            }
+            updateViewer();
+        });
     </script>
 </body>
 </html>
