@@ -164,13 +164,13 @@
         navBottom.prevButton.addEventListener('click', () => changeEpisode(-1));
 
         const updateViewer = () => {
-        const selectedValue = navTop.selector.value;
-        const selectedEpisode = episodes.find(episode => episode.value === selectedValue);
-        if (selectedEpisode && selectedEpisode.url) {
-            viewer.src = selectedEpisode.value;
-            window.history.replaceState({}, "", `/${selectedEpisode.url}`);
-        }
-        updateButtons();
+            const selectedValue = navTop.selector.value;
+            const selectedEpisode = episodes.find(episode => episode.value === selectedValue);
+            if (selectedEpisode && selectedEpisode.url) {
+                viewer.src = selectedEpisode.value;
+                window.history.replaceState({}, "", `/${selectedEpisode.url}`);
+            }
+            updateButtons();
         };
 
         window.addEventListener('load', () => {
