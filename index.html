@@ -51,7 +51,7 @@
         i think i like you fr
     </div>
     <div class="title-container">
-        <h1>I Think I Like You - VF    1</h1>
+        <h1>I Think I Like You - VF</h1>
         <div class="credits">
             <p>Retrouvez le comic par Heru & Syd sur le <a href="https://ithinkilikeyou.net" target="_blank" style="color: var(--color_01); text-decoration: none;"><b>site officiel</b></a>, soutenez-les sur <a href="https://www.patreon.com/IThinkILikeYou" target="_blank" style="color: var(--color_01); text-decoration: none;"><b>Patreon</b></a> et visitez leur <a href="https://ithinkilikeyou.store" target="_blank" style="color: var(--color_01); text-decoration: none;"><b>boutique</b></a>.</p>
 
@@ -114,6 +114,16 @@
         const navBottom = createNav('nav-bottom');
         const viewer = document.getElementById('image-viewer');
 
+        const updateViewer = () => {
+            const selectedValue = navTop.selector.value;
+            const selectedEpisode = episodes.find(episode => episode.value === selectedValue);
+            if (selectedEpisode) {
+                viewer.src = selectedEpisode.value;
+                window.history.replaceState({}, "", `/${selectedEpisode.url}`);
+            }
+            updateButtons();
+        };
+
         const changeEpisode = (direction) => {
             const selectedIndex = navTop.selector.selectedIndex;
             let newIndex = selectedIndex;
@@ -162,16 +172,6 @@
         navTop.prevButton.addEventListener('click', () => changeEpisode(-1));
         navBottom.nextButton.addEventListener('click', () => changeEpisode(1));
         navBottom.prevButton.addEventListener('click', () => changeEpisode(-1));
-
-        const updateViewer = () => {
-            const selectedValue = navTop.selector.value;
-            const selectedEpisode = episodes.find(episode => episode.value === selectedValue);
-            if (selectedEpisode && selectedEpisode.url) {
-                viewer.src = selectedEpisode.value;
-                window.history.replaceState({}, "", `/${selectedEpisode.url}`);
-            }
-            updateButtons();
-        };
 
         window.addEventListener('load', () => {
             const urlSegment = window.location.pathname.split('/').pop();
