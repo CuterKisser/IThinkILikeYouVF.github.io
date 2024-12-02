@@ -1,0 +1,79 @@
+:root {
+    --color_01: #ed975b;
+}
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #333;
+    color: var(--color_01);
+    margin: 0;
+    padding: 0px;
+}
+.title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+h1 {
+    margin: 0;
+    font-size: 32px;
+}
+.credits {
+    text-align: right;
+    font-size: 20px;
+}
+.nav-container {
+    text-align: center;
+    margin: 0px auto;
+}
+select {
+    display: inline-block;
+    width: 100%;
+    max-width: 500px;
+    margin: 5px 5px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #444;
+    color: var(--color_01);
+    border: 2px solid var(--color_01);
+    border-radius: 5px;
+    appearance: none; 
+    cursor: pointer;
+    text-align: center;
+}
+select option {
+    background-color: #333;
+    color: var(--color_01);
+}
+select:focus {
+    outline: none;
+    border-color: var(--color_01);
+}
+button {
+    display: inline-block;
+    padding: 5px 5px;
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #444;
+    color: var(--color_01);
+    border: 2px solid var(--color_01);
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0px;
+}
+button:hover {
+    background-color: #222;
+}
+button:disabled {
+    background-color: #222;
+    color: #333;
+    border-color: #333;
+    cursor: not-allowed;
+}
+#image-viewer {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: block;
+}
