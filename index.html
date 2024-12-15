@@ -59,7 +59,12 @@
             <p style="font-size: 16px;">Traduction VF par CuterKisser > <a href="https://www.twitch.tv/cuterkisser" target="_blank" style="color: var(--color_01); text-decoration: none;"><b>Twitch</b></a></p>
         </div>
     </div>
-    <p style="text-align: center; font-size: 20px;"><a href="hd.html" target="_blank" style="color: var(--color_01); text-decoration: none;"><b>HD Version !</b></a></p>
+    <p style="text-align: center; font-size: 20px;">
+        <a id="hd-link" href="hd.html" target="_blank" style="color: var(--color_01); text-decoration: none;">
+        <b>HD Version !</b>
+        </a>
+    </p>
+
     <div class="nav-container" id="nav-top"></div>
     <br>
     <img id="image-viewer" src="1.jpg" alt="Patience, l'épisode arrive..." oncontextmenu="return false;" ondragstart="return false;">
@@ -187,6 +192,22 @@
             }
             updateViewer();
         });
+
+        const hdLink = document.getElementById('hd-link');
+
+        const updateHDLink = () => {
+            const selectedValue = navTop.selector.value;
+            hdLink.href = `hd.html?episode=${selectedValue}`;
+        };
+
+        navTop.selector.addEventListener('change', updateHDLink);
+        navBottom.selector.addEventListener('change', updateHDLink);
+        navTop.nextButton.addEventListener('click', updateHDLink);
+        navTop.prevButton.addEventListener('click', updateHDLink);
+        navBottom.nextButton.addEventListener('click', updateHDLink);
+        navBottom.prevButton.addEventListener('click', updateHDLink);
+
+        window.addEventListener('load', updateHDLink);
     </script>
 </body>
 </html>
