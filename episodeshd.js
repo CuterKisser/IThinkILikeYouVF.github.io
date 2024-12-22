@@ -1,4 +1,5 @@
 const episodes = [
+    { value: '82.png', text: "82# Promenade", description: 'i think i like you VF episode 82 HD', url: '82' },
     { value: '81.png', text: "81# Perdus et Retrouvés", description: 'i think i like you VF episode 81 HD', url: '81' },
     { value: '80.png', text: "80# Fin du voyage", description: 'i think i like you VF episode 80 HD', url: '80' },
     { value: '79.png', text: "79# La Mort de Sky", description: 'i think i like you VF episode 79 HD', url: '79' },
