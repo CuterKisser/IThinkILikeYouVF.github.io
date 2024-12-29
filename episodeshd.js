@@ -1,4 +1,6 @@
 const episodes = [
+    { value: '', text: '/\\ Saison 3  /\\', description: 'i think i like you VF HD saison 3', disabled: true },
+    { value: '83.png', text: "83# Amis", description: 'i think i like you VF episode 83 HD', url: '83' },
     { value: '82.png', text: "82# Promenade", description: 'i think i like you VF episode 82 HD', url: '82' },
     { value: '81.png', text: "81# Perdus et Retrouvés", description: 'i think i like you VF episode 81 HD', url: '81' },
     { value: '80.png', text: "80# Fin du voyage", description: 'i think i like you VF episode 80 HD', url: '80' },
@@ -38,7 +40,7 @@ const episodes = [
     { value: '46.png', text: '46# Protégé', description: 'i think i like you VF episode 46 HD', url: '46' },
     { value: '45.png', text: '45# Pas de cette façon', description: 'i think i like you VF episode 45 HD', url: '45' },
     { value: '44.png', text: '44# Je crois que je te connais', description: 'i think i like you VF episode 44 HD', url: '44' },
-    { value: '', text: '/\\ Saison 2  /\\', description: 'i think i like you VF saison 2', disabled: true },
+    { value: '', text: '/\\ Saison 2  /\\', description: 'i think i like you VF saison 2 HD', disabled: true },
     { value: '43.png', text: '43# Spécial DnD - Part 4 - Célébration', description: 'i think i like you VF episode 43 HD', url: '43' },
     { value: '42.png', text: '42# Spécial DnD - Part 3 - Château de la mort', description: 'i think i like you VF episode 4 HD2', url: '42' },
     { value: '41.png', text: '41# Spécial DnD - Part 2 - Le Pacte', description: 'i think i like you VF episode 41 HD', url: '41' },
@@ -82,5 +84,5 @@ const episodes = [
     { value: '3.png', text: '3# Évaluez votre livraison - Très insatisfait', description: 'i think i like you VF episode 3 HD', url: '3' },
     { value: '2.png', text: '2# Statut de livraison - de retour sur le planning', description: 'i think i like you VF episode 2 HD', url: '2' },
     { value: '1.png', text: '1# Livraison de colis', description: 'i think i like you VF episode 1 HD', url: '1' },
-    { value: '', text: '/\\ Saison 1  /\\', description: 'i think i like you VF saison 1', disabled: true }
+    { value: '', text: '/\\ Saison 1  /\\', description: 'i think i like you VF saison 1 HD', disabled: true }
 ];
