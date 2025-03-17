@@ -522,6 +522,12 @@
   <lastmod>2024-12-01T22:09:14+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+
+<url>
+  <loc>https://ithinkilikeyou.fr/?episode=84</loc>
+  <lastmod>2025-03-17T06:45:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
 <!-- HD -->
 <url>
   <loc>https://ithinkilikeyou.fr/hd?episode=1</loc>
@@ -1021,5 +1027,10 @@
   <priority>0.80</priority>
 </url>
 
+<url>
+  <loc>https://ithinkilikeyou.fr/hd?episode=84</loc>
+  <lastmod>2025-03-17T06:45:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
 
 </urlset>
