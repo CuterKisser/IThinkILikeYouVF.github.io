@@ -1,4 +1,5 @@
 const episodes = [
+    { value: '85.jpg', text: "85# Bandes blanchissantes", description: 'i think i like you VF episode 85', url: '85' },
     { value: '84.jpg', text: "84# Trouvé", description: 'i think i like you VF episode 84', url: '84' },
     { value: '', text: '/\\ Saison 3  /\\', description: 'i think i like you VF HD saison 3', disabled: true },
     { value: '83.jpg', text: "83# Amis", description: 'i think i like you VF episode 83', url: '83' },
