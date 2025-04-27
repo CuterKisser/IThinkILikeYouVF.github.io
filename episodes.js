@@ -1,6 +1,7 @@
 const episodes = [
+    { value: '91.jpg', text: "91# Excès", description: 'i think i like you VF episode 91', url: '91' },
     { value: '90.jpg', text: "90# Faire face", description: 'i think i like you VF episode 90', url: '90' },
-    { value: '89.jpg', text: "89# Révélation", description: 'i think i like you VF episode 89', url: '89' },
+    { value: '89unblur.jpg', text: "89# Révélation", description: 'i think i like you VF episode 89', url: '89' },
     { value: '88.jpg', text: "88# L'homme parfait pour ce job", description: 'i think i like you VF episode 88', url: '88' },
     { value: '87.jpg', text: "87# Décisions", description: 'i think i like you VF episode 87', url: '87' },
     { value: '86.jpg', text: "86# Seuil critique", description: 'i think i like you VF episode 86', url: '86' },
