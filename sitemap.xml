@@ -571,10 +571,22 @@
   <priority>0.80</priority>
 </url>
 
+<url>
+  <loc>https://ithinkilikeyou.fr/?episode=92</loc>
+  <lastmod>2025-05-02T22:20:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
 
 <!-- HD -->
 
 
+
+<url>
+  <loc>https://ithinkilikeyou.fr/hd?episode=92</loc>
+  <lastmod>2025-05-02T22:20:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
 
 <url>
   <loc>https://ithinkilikeyou.fr/hd?episode=91</loc>
