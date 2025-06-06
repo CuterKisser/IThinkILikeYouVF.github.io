@@ -1,4 +1,5 @@
 const episodes = [
+    { value: '96.png', text: "96# Et tu Brute", description: 'i think i like you VF episode 96 HD', url: '96' },
     { value: '95.png', text: "95# Inquiet", description: 'i think i like you VF episode 95 HD', url: '95' },
     { value: '94.png', text: "94# Rencontre", description: 'i think i like you VF episode 94 HD', url: '94' },
     { value: '93.png', text: "93# Virée nocturne", description: 'i think i like you VF episode 93 HD', url: '93' },

@@ -595,11 +595,23 @@
   <priority>0.80</priority>
 </url>
 
+<url>
+  <loc>https://ithinkilikeyou.fr/?episode=96</loc>
+  <lastmod>2025-06-07T17:01:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
 
 
 <!-- HD -->
 
 
+
+<url>
+  <loc>https://ithinkilikeyou.fr/hd?episode=96</loc>
+  <lastmod>2025-06-07T17:01:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
 
 <url>
   <loc>https://ithinkilikeyou.fr/hd?episode=95</loc>
