@@ -1,4 +1,5 @@
 const episodes = [
+    { value: '97.png', text: "97# Pouvoirs", description: 'i think i like you VF episode 97 HD', url: '97' },
     { value: '96.png', text: "96# Et tu Brute", description: 'i think i like you VF episode 96 HD', url: '96' },
     { value: '95.png', text: "95# Inquiet", description: 'i think i like you VF episode 95 HD', url: '95' },
     { value: '94.png', text: "94# Rencontre", description: 'i think i like you VF episode 94 HD', url: '94' },
@@ -55,7 +56,7 @@ const episodes = [
     { value: '44.png', text: '44# Je crois que je te connais', description: 'i think i like you VF episode 44 HD', url: '44' },
     { value: '', text: '/\\ Saison 2  /\\', description: 'i think i like you VF saison 2 HD', disabled: true },
     { value: '43.png', text: '43# Spécial DnD - Part 4 - Célébration', description: 'i think i like you VF episode 43 HD', url: '43' },
-    { value: '42.png', text: '42# Spécial DnD - Part 3 - Château de la mort', description: 'i think i like you VF episode 4 HD2', url: '42' },
+    { value: '42.png', text: '42# Spécial DnD - Part 3 - Château de la mort', description: 'i think i like you VF episode 4 HD', url: '42' },
     { value: '41.png', text: '41# Spécial DnD - Part 2 - Le Pacte', description: 'i think i like you VF episode 41 HD', url: '41' },
     { value: '40.png', text: "40# Spécial DnD - Part 1 - L'aventure commence !", description: 'i think i like you VF episode 40 HD', url: '40' },
     { value: '39.png', text: '39# Halloween', description: 'i think i like you VF episode 39 HD', url: '39' },
