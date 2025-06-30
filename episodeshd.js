@@ -1,6 +1,6 @@
 const episodes = [
-    { value: '99.png', text: "99# Foire du comté", description: 'i think i like you VF episode 99 HD', url: '99' },
-    { value: '98.png', text: "98# Spot habituel", description: 'i think i like you VF episode 98 HD', url: '98' },
+    { value: '99ff.png', text: "99# Fête foraine", description: 'i think i like you VF episode 99 HD', url: '99' },
+    { value: '98ff.png', text: "98# Spot habituel", description: 'i think i like you VF episode 98 HD', url: '98' },
     { value: '97.png', text: "97# Pouvoirs", description: 'i think i like you VF episode 97 HD', url: '97' },
     { value: '96.png', text: "96# Et tu Brute", description: 'i think i like you VF episode 96 HD', url: '96' },
     { value: '95.png', text: "95# Inquiet", description: 'i think i like you VF episode 95 HD', url: '95' },
