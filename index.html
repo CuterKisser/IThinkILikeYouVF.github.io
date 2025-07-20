@@ -135,6 +135,7 @@
         const selectedValue = navTop.selector.value;
         const selectedEpisode = episodes.find(episode => episode.value === selectedValue);
         const viewer = document.getElementById('image-viewer');
+
         viewer.innerHTML = '';
 
         if (selectedEpisode && selectedEpisode.url) {
@@ -142,7 +143,7 @@
                 selectedEpisode.url.forEach(url => {
                     const img = document.createElement('img');
                     img.src = url;
-                    img.alt = "Non disponible pour le moment...";
+                    img.alt = "Non disponible pour le moment... Essayez en HD.";
                     img.style.maxWidth = '100%';
                     img.style.display = 'block';
                     img.style.margin = '0 auto';
@@ -153,7 +154,7 @@
             } else {
                 const img = document.createElement('img');
                 img.src = selectedEpisode.url;
-                img.alt = "Essayez en HD.";
+                img.alt = "Non disponible pour le moment... Essayez en HD.";
                 img.style.maxWidth = '100%';
                 img.style.display = 'block';
                 img.style.margin = '0 auto';

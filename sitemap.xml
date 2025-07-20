@@ -1,641 +1,537 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                      http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
   <loc>https://ithinkilikeyou.fr/</loc>
   <lastmod>2024-12-02T02:29:42+00:00</lastmod>
   <priority>1.00</priority>
 </url>
-
 <url>
   <loc>https://ithinkilikeyou.fr/hd.html</loc>
   <lastmod>2024-12-02T02:29:42+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
   <loc>https://ithinkilikeyou.fr/index.html</loc>
   <lastmod>2024-12-02T02:29:42+00:00</lastmod>
   <priority>0.64</priority>
 </url>
-<!-- SD -->
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=1</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=1.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=2</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=2.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=3</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=3.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=4</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=4.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=5</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=5.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=6</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=6.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=7</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=7.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=8</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=8.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=9</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=9.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=10</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=10.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=11</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=11.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=12</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=12.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=13</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=13.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=14</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=14.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=15</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=15.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=16</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=16.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=17</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=17.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=18</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=18.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=19</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=19.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=20</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=20.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=21</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=21.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=22</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=22.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=23</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=23.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=24</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=24.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=25</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=25.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=26</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=26.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=27</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=27.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=28</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=28.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=29</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=29.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=30</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=30.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=31</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=31.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=32</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=32.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=33</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=33.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=34</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=34.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=35</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=35.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=36</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=36.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=37</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=37.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=38</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=38.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=39</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=39.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=40</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=40.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=41</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=41.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=42</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=42.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=43</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=43.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=44</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=44.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=45</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=45.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=46</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=46.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=47</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=47.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=48</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=48.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=49</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=49.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=50</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=50.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=51</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=51.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=52</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=52.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=53</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=53.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=54</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=54.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=55</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=55.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=56</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=56.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=57</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=57.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=58</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=58.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=59</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=59.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=60</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=60.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=61</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=61.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=62</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=62.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=63</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=63.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=64</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=64.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=65</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=65.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=66</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=66.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=67</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=67.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=68</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=68.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=69</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=69.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=70</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=70.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=71</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=71.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=72</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=72.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=73</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=73.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=74</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=74.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=75</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=75.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=76</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=76.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=77</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=77.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=78</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=78.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=79</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=79.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=80</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=80.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=81</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=81.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=82</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=82.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=83</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=83.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=84</loc>
-  <lastmod>2025-03-17T06:45:00+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=84.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=85</loc>
-  <lastmod>2025-03-23T03:40:00+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=85.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=86</loc>
-  <lastmod>2025-03-29T08:15:00+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=86.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=87</loc>
-  <lastmod>2025-04-05T06:00:00+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=87.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=88</loc>
-  <lastmod>2025-04-14T04:40:00+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=88.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=89</loc>
-  <lastmod>2025-04-14T03:40:00+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=89.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=90</loc>
-  <lastmod>2025-04-25T19:50:00+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=90.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=91</loc>
-  <lastmod>2025-05-02T22:20:00+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=91.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=92</loc>
-  <lastmod>2025-05-02T22:20:00+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=92.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=93</loc>
-  <lastmod>2025-05-17T17:10:00+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=93.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=94</loc>
-  <lastmod>2025-05-25T17:18:00+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=94.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=95</loc>
-  <lastmod>2025-05-31T17:01:20+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=95.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=96</loc>
-  <lastmod>2025-06-07T17:01:30+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=96.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=97</loc>
-  <lastmod>2025-06-14T17:02:30+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=97.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=98</loc>
-  <lastmod>2025-06-20T17:23:20+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=98.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=99</loc>
-  <lastmod>2025-06-28T17:02:30+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=99.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=100</loc>
-  <lastmod>2025-07-05T07:20:00+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=100.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=101</loc>
-  <lastmod>2025-07-12T00:10:00+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=101.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/?episode=102</loc>
-  <lastmod>2025-07-20T05:10:00+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/?episode=102.jpg</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+
+
 
 
 
@@ -643,616 +539,516 @@
 
 
 
+
+
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=102</loc>
-  <lastmod>2025-07-20T05:10:00+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=1.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=101</loc>
-  <lastmod>2025-07-12T00:10:00+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=2.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=100</loc>
-  <lastmod>2025-07-05T07:20:00+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=3.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=99</loc>
-  <lastmod>2025-06-28T17:02:30+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=4.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=98</loc>
-  <lastmod>2025-06-20T17:23:20+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=5.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=97</loc>
-  <lastmod>2025-06-14T17:02:30+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=6.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=96</loc>
-  <lastmod>2025-06-07T17:01:30+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=7.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=95</loc>
-  <lastmod>2025-05-31T17:01:20+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=8.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=94</loc>
-  <lastmod>2025-05-25T17:18:00+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=9.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=93</loc>
-  <lastmod>2025-05-17T17:10:00+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=10.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=92</loc>
-  <lastmod>2025-05-02T22:20:00+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=11.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=91</loc>
-  <lastmod>2025-05-02T22:20:00+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=12.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=90</loc>
-  <lastmod>2025-04-25T19:50:00+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=13.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=1</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=14.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=2</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=15.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=3</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=16.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=4</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=17.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=5</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=18.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=6</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=19.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=7</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=20.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=8</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=21.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=9</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=22.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=10</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=23.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=11</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=24.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=12</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=25.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=13</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=26.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=14</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=27.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=15</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=28.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=16</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=29.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=17</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=30.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=18</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=31.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=19</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=32.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=20</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=33.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=21</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=34.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=22</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=35.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=23</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=36.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=24</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=37.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=25</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=38.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=26</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=39.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=27</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=40.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=28</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=41.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=29</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=42.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=30</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=43.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=31</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=44.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=32</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=45.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=33</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=46.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=34</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=47.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=35</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=48.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=36</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=49.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=37</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=50.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=38</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=51.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=39</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=52.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=40</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=53.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=41</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=54.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=42</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=55.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=43</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=56.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=44</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=57.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=45</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=58.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=46</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=59.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=47</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=60.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=48</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=61.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=49</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=62.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=50</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=63.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=51</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=64.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=52</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=65.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=53</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=66.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=54</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=67.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=55</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=68.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=56</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=69.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=57</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=70.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=58</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=71.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=59</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=72.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=60</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=73.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=61</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=74.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=62</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=75.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=63</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=76.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=64</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=77.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=65</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=78.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=66</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=79.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=67</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=80.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=68</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=81.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=69</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=82.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=70</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=83.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=71</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=84.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=72</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=85.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=73</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=86.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=74</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=87.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=75</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=88.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=76</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=89.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=77</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=90.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=78</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=91.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=79</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=92.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=80</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=93.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=81</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=94.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=82</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=95.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=83</loc>
-  <lastmod>2024-12-01T22:09:14+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=96.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=84</loc>
-  <lastmod>2025-03-17T06:45:00+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=97.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=85</loc>
-  <lastmod>2025-03-23T03:40:00+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=98.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=86</loc>
-  <lastmod>2025-03-29T08:15:00+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=99.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=87</loc>
-  <lastmod>2025-04-12T06:00:00+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=100.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=88</loc>
-  <lastmod>2025-04-14T04:40:00+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=101.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://ithinkilikeyou.fr/hd?episode=89</loc>
-  <lastmod>2025-04-14T03:40:00+00:00</lastmod>
+  <loc>https://ithinkilikeyou.fr/hd?episode=102.png</loc>
+  <lastmod>2025-07-20T05:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 </urlset>

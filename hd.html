@@ -3,6 +3,16 @@
 <head>
     <title>I Think I Like You - VF HD!</title>
     <script src="redirect.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-95DP4EBMR0"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-95DP4EBMR0');
+    </script>
+    <!-- End Google Tag (gtag.js)-->
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -68,7 +78,8 @@
 
     <div class="nav-container" id="nav-top"></div>
     <br>
-    <img id="image-viewer" src="1.png" alt="Non disponible pour le moment... Essayez en SD." oncontextmenu="return false;" ondragstart="return false;">
+    <div id="image-viewer" style="text-align: center;"></div>
+
     <div class="nav-container" id="nav-bottom"></div>
 
     <script src="episodeshd.js"></script>
@@ -122,14 +133,42 @@
         const viewer = document.getElementById('image-viewer');
 
         const updateViewer = () => {
-            const selectedValue = navTop.selector.value;
-            const selectedEpisode = episodes.find(episode => episode.value === selectedValue);
-            if (selectedEpisode && selectedEpisode.url) {
-                viewer.src = selectedEpisode.value;
-                window.history.replaceState({}, "", `?episode=${selectedEpisode.url}`);
+        const selectedValue = navTop.selector.value;
+        const selectedEpisode = episodes.find(episode => episode.value === selectedValue);
+
+        viewer.innerHTML = '';
+
+        if (selectedEpisode && selectedEpisode.url) {
+            if (selectedEpisode.multi) {
+                selectedEpisode.url.forEach(url => {
+                    const img = document.createElement('img');
+                    img.src = url;
+                    img.alt = "Non disponible pour le moment... Essayez en SD.";
+                    img.style.maxWidth = '100%';
+                    img.style.display = 'block';
+                    img.style.margin = '0 auto';
+                    img.oncontextmenu = () => false;
+                    img.ondragstart = () => false;
+                    viewer.appendChild(img);
+                });
+            } else {
+                const img = document.createElement('img');
+                img.src = selectedEpisode.url;
+                img.alt = "Non disponible pour le moment... Essayez en SD.";
+                img.style.maxWidth = '100%';
+                img.style.display = 'block';
+                img.style.margin = '0 auto';
+                img.oncontextmenu = () => false;
+                img.ondragstart = () => false;
+                viewer.appendChild(img);
             }
-            updateButtons();
-        };
+
+            window.history.replaceState({}, "", `?episode=${selectedEpisode.url}`);
+        }
+
+        updateButtons();
+    };
+
 
         const changeEpisode = (direction) => {
             const selectedIndex = navTop.selector.selectedIndex;
