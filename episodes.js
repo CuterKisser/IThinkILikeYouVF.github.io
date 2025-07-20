@@ -1,5 +1,10 @@
 const episodes = [
-    { value: '102.jpg', text: "102# Début du voyage", description: 'i think i like you VF episode 102', url: '102.jpg' },
+    {
+        value: '102.jpg',
+        text: '102# Début du voyage',
+        url: ['102-1.jpg', '102-2.jpg'],
+        multi: true
+    },
     {
         value: '101.jpg',
         text: '101# Descente',
