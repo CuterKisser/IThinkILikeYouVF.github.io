@@ -1,4 +1,11 @@
 const episodes = [
+    {
+        value: '106.png',
+        text: '106# Le vrai voyage commence',
+        description: 'i think i like you VF episode 106 HD',
+        url: ['106-1.png', '106-2.png'],
+        multi: true
+    },
     { value: '105.png', text: "105# Réunion", description: 'i think i like you VF episode 105 HD', url: '105.png' },
     { value: '104.png', text: "104# Nous arrivons", description: 'i think i like you VF episode 104 HD', url: '104.png' },
     {
