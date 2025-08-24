@@ -1,4 +1,6 @@
 const episodes = [
+    { value: '107.png', text: "107# Procrastination", description: 'i think i like you VF episode 107 HD', url: '107.png' },
+    { value: 'polaroid106.webp', text: "Polaroid #106", description: 'i think i like you VF polaroid n°2', url: 'polaroid106.webp' },
     {
         value: '106.png',
         text: '106# Le vrai voyage commence',
@@ -6,6 +8,7 @@ const episodes = [
         url: ['106-1.png', '106-2.png'],
         multi: true
     },
+    { value: 'polaroid105.webp', text: "Polaroid #105", description: 'i think i like you VF polaroid n°1', url: 'polaroid105.webp' },
     { value: '105.png', text: "105# Réunion", description: 'i think i like you VF episode 105 HD', url: '105.png' },
     { value: '104.png', text: "104# Nous arrivons", description: 'i think i like you VF episode 104 HD', url: '104.png' },
     {
