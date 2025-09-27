@@ -1,4 +1,5 @@
 const episodes = [
+    { value: '112.jpg', text: "112# Vote obtenu", description: 'i think i like you VF episode 112', url: '112.jpg' },
     { value: '111.jpg', text: "111# Thé avec Cerbère", description: 'i think i like you VF episode 111', url: '111.jpg' },
     { value: '110.jpg', text: "110# Malédictions", description: 'i think i like you VF episode 110', url: '110.jpg' },
     { value: '109.jpg', text: "109# Cerbère", description: 'i think i like you VF episode 109', url: '109.jpg' },
