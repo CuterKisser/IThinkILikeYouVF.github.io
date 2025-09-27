@@ -1,8 +1,12 @@
 const episodes = [
     { value: '112.png', text: "112# Vote obtenu", description: 'i think i like you VF episode 112 HD', url: '112.png' },
+    { value: 'polaroid111.webp', text: "Polaroid #111", description: 'i think i like you VF polaroid n°7', url: 'polaroid111.webp' },
     { value: '111.png', text: "111# Thé avec Cerbère", description: 'i think i like you VF episode 111 HD', url: '111.png' },
+    { value: 'polaroid110.webp', text: "Polaroid #110", description: 'i think i like you VF polaroid n°6', url: 'polaroid110.webp' },
     { value: '110.png', text: "110# Malédictions", description: 'i think i like you VF episode 110 HD', url: '110.png' },
+    { value: 'polaroid109.webp', text: "Polaroid #109", description: 'i think i like you VF polaroid n°5', url: 'polaroid109.webp' },
     { value: '109.png', text: "109# Cerbère", description: 'i think i like you VF episode 109 HD', url: '109.png' },
+    { value: 'polaroid108.webp', text: "Polaroid #108", description: 'i think i like you VF polaroid n°4', url: 'polaroid108.webp' },
     {
         value: '108.png',
         text: '108# Nouvelle ville',
