@@ -1,4 +1,11 @@
 const episodes = [
+    {
+        value: '113.jpg',
+        text: '113# Nouvelle région',
+        description: 'i think i like you VF episode 113',
+        url: ['113-1.jpg', '113-2.jpg', '113-3.jpg'],
+        multi: true
+    },
     { value: '112.jpg', text: "112# Vote obtenu", description: 'i think i like you VF episode 112', url: '112.jpg' },
     { value: 'polaroid111.webp', text: "Polaroid #111", description: 'i think i like you VF polaroid n°7', url: 'polaroid111.webp' },
     { value: '111.jpg', text: "111# Thé avec Cerbère", description: 'i think i like you VF episode 111', url: '111.jpg' },
