@@ -1,5 +1,12 @@
 const episodes = [
     {
+        value: '114.jpg',
+        text: '114# Anubis',
+        description: 'i think i like you VF episode 114',
+        url: ['114-1.jpg', '114-2.jpg'],
+        multi: true
+    },
+    {
         value: '113.jpg',
         text: '113# Nouvelle région',
         description: 'i think i like you VF episode 113',
