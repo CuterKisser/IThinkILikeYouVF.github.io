@@ -56,7 +56,7 @@
   <link rel="stylesheet" href="css/base.css" />
 
   <!-- 🎃 Thème actif -->
-  <link rel="stylesheet" href="css/theme-halloween.css" />
+  <link rel="stylesheet" href="css/theme-valentin.css" />
 </head>
 
 <!-- "neon" / "halloween" / "noel" / "hiver" / "valentin" / "arcade" -->
@@ -229,6 +229,7 @@
       const eps=flatEpisodes; if(!eps.length) return;
       const idx=eps.length-1; showEpisodeByIndex(idx);
     });
+    document.addEventListener('contextmenu', e => e.preventDefault());
   </script>
 </body>
 </html>

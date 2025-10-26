@@ -107,8 +107,22 @@ const episodes = [
     { value: '65.png', text: "Courrier reçu !", description: 'i think i like you VF episode 65 HD', preview: '65-preview.png', url: '65.png' },
     { value: '64.png', text: "Je t'ai eu !", description: 'i think i like you VF episode 64 HD', preview: '64-preview.png', url: '64.png' },
     { value: '63.png', text: "Le lendemain", description: 'i think i like you VF episode 63 HD', preview: '63-preview.png', url: '63.png' },
-    { value: '62.png', text: "Conneries Nocturnes", description: 'i think i like you VF episode 62 HD', preview: '62-preview.png', url: '62.png' },
-    { value: '61.png', text: "Prêteur sur gages 24h24", description: 'i think i like you VF episode 61 HD', preview: '61-preview.png', url: '61.png' },
+    {
+        value: '62.png',
+        text: 'Conneries Nocturnes',
+        description: 'i think i like you VF episode 62 HD',
+        preview: '62-preview.png',
+        url: ['62-1.png', '62-2.png', '62-3.png'],
+        multi: true
+    },
+    {
+        value: '61.png',
+        text: 'Prêteur sur gages 24h24',
+        description: 'i think i like you VF episode 61 HD',
+        preview: '61-preview.png',
+        url: ['61-1.png', '61-2.png', '61-3.png', '61-4.png', '61-5.png', '61-6.png', '61-7.png'],
+        multi: true
+    },
     { value: '60.png', text: "Double perception", description: 'i think i like you VF episode 60 HD', preview: '60-preview.png', url: '60.png' },
     { value: '59.png', text: "Juste toi et moi", description: 'i think i like you VF episode 59 HD', preview: '59-preview.png', url: '59.png' },
     { value: '58.png', text: "Crush", description: 'i think i like you VF episode 58', preview: '58-preview.png', url: '58.png' },

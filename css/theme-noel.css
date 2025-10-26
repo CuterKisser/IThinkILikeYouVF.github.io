@@ -145,11 +145,7 @@ main::before{
 a{text-decoration:none;color:inherit}
 
 /* HEADER */
-header{
-  position:sticky; top:0; z-index:10;
-  background:rgba(0,0,0,.6); backdrop-filter:blur(10px);
-  border-bottom:1px solid var(--line-soft); box-shadow:var(--shadow);
-}
+
 .header-inner{
   max-width:1100px; margin:0 auto; padding:12px 20px 8px;
   display:grid; grid-template-columns:1fr auto; grid-template-rows:auto auto;
@@ -208,11 +204,7 @@ main{ max-width:1100px; margin:12px auto 40px; padding:0 20px; position:relative
   transition:max-height .45s ease, opacity .35s ease, padding .25s ease;
   padding:0 10px 0;
 }
-.season.open .season-body{ max-height:2000px; opacity:1; padding:10px 10px 12px; }
-
-.episodes-grid{ display:grid; gap:12px; grid-template-columns:repeat(var(--grid-cols),1fr) }
-@media (max-width:992px){ .episodes-grid{grid-template-columns:repeat(4,1fr)} }
-@media (max-width:520px){ .episodes-grid{grid-template-columns:repeat(2,1fr)} }
+.season.open .season-body{ max-height:none; opacity:1; padding:10px 10px 12px; }
 
 .episode-card{
   background:rgba(0,0,0,.12);
@@ -243,8 +235,8 @@ main{ max-width:1100px; margin:12px auto 40px; padding:0 20px; position:relative
 .ep-btn{ font-family:'Quicksand',sans-serif; }
 
 .ep-number{
-  position:absolute; top:6px; left:8px; font-weight:800; font-size:.88rem; letter-spacing:.3px;
-  color:#fff; text-shadow:0 0 6px rgba(0,0,0,.45); pointer-events:none; z-index:3;
+  position:absolute;top:3px;left:3px;font-weight:800;font-size:1.4rem;letter-spacing:.3px;
+  color:#ffffff;text-shadow:0 0 10px rgb(0, 0, 0);pointer-events:none;z-index:30;
 }
 
 .episode-img{ width:100%; height:132px; object-fit:cover; background:rgba(0,0,0,.15); display:block; border-radius:0 }
