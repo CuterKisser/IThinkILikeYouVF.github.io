@@ -203,19 +203,19 @@ main {
 }
 
 @media (max-width:992px) {
-  .episodes-grid { grid-template-columns: repeat(5, 1fr); } /* tablettes */
+  .episodes-grid { grid-template-columns: repeat(4, 1fr); } /* tablettes */
 }
 
 @media (max-width:768px) {
-  .episodes-grid { grid-template-columns: repeat(5, 1fr); } /* petits écrans */
+  .episodes-grid { grid-template-columns: repeat(3, 1fr); } /* petits écrans */
 }
 
 @media (max-width:520px) {
-  .episodes-grid { grid-template-columns: repeat(4, 1fr); } /* téléphones */
+  .episodes-grid { grid-template-columns: repeat(2, 1fr); } /* téléphones */
 }
 
 @media (max-width:380px) {
-  .episodes-grid { grid-template-columns: repeat(3, 1fr); } /* très petits écrans */
+  .episodes-grid { grid-template-columns: repeat(2, 1fr); } /* très petits écrans */
 }
 
 
