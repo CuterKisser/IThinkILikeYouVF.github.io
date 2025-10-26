@@ -1,0 +1,32 @@
+:root {
+  --bg: #589ad5;
+  --text: #f8fbff;
+  --c-blue: #38f3ff;
+  --c-pink: #ff65f7;
+  --c-violet: #a47aff;
+  --glow-blue-soft: 0 0 4px rgba(56,243,255,.18);
+}
+
+/* titre principal */
+.brand h1 {
+  text-shadow:
+    0 0 8px rgba(56,243,255,.35),
+    0 0 16px rgba(255,101,247,.18);
+}
+
+/* liens du header */
+nav a::after {
+  box-shadow: 0 0 8px rgba(56,243,255,.35);
+}
+nav a:hover::after {
+  background: linear-gradient(90deg, var(--c-pink), var(--c-pink));
+  box-shadow: 0 0 10px rgba(255,101,247,.45);
+  opacity: 1;
+}
+
+/* boutons navigation */
+.ep-btn:hover {
+  border-color: var(--c-pink);
+  box-shadow: 0 0 10px var(--c-pink);
+  color: var(--c-pink);
+}
