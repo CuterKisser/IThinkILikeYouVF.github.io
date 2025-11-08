@@ -55,9 +55,16 @@
   <!-- CSS global -->
   <link rel="stylesheet" href="css/base.css" />
 
-  <!-- 🎃 Thème actif -->
+  <!-- Thème -->
   <link rel="stylesheet" href="css/theme-halloween.css" />
+  <style>
+    #viewer { line-height: 0; }
+    #viewer img { display: block; }
+    #viewer img.polaroid { margin-bottom: 24px; }
+    #viewer img.page { margin-bottom: 0; }
+  </style>
 </head>
+
 
 <!-- "neon" / "halloween" / "noel" / "hiver" / "valentin" / "arcade" -->
   <!-- Google Tag Manager (noscript) -->
@@ -161,30 +168,60 @@
 
     function showEpisodeByIndex(index){
       if(index<0||index>=flatEpisodes.length) return;
-      const ep=flatEpisodes[index]; currentIndex=index; setActiveByIndex(index);
+      const ep = flatEpisodes[index];
+      currentIndex = index;
+      setActiveByIndex(index);
 
-      viewer.innerHTML='';
-      const loading=document.createElement('div'); loading.className='loading';
-      loading.textContent='Veuillez patienter le temps du chargement…'; viewer.appendChild(loading);
+      viewer.innerHTML = '';
+      const loading = document.createElement('div');
+      loading.className = 'loading';
+      loading.textContent = 'Veuillez patienter le temps du chargement…';
+      viewer.appendChild(loading);
 
-      const epNum=(ep.value.match(/(\d+)/)||[])[1];
-      let urls=[];
-      if(epNum && polaroidMap[epNum]) urls.push(polaroidMap[epNum].url);
-      if(ep.multi) urls=urls.concat(ep.url); else urls.push(ep.url);
+      const epNum = (ep.value.match(/(\d+)/)||[])[1];
+      let urls = [];
+      if (epNum && polaroidMap[epNum]) urls.push(polaroidMap[epNum].url);
+      if (ep.multi) urls = urls.concat(ep.url); else urls.push(ep.url);
 
-      let loaded=0,failed=0;
-      urls.forEach(src=>{ const im=new Image(); im.onload=onDone; im.onerror=()=>{failed++;onDone();}; im.src=src; });
+      let loaded = 0, failed = 0;
+      urls.forEach(src => {
+        const im = new Image();
+        im.onload = onDone;
+        im.onerror = () => { failed++; onDone(); };
+        im.src = src;
+      });
 
       function onDone(){
         loaded++;
-        if(loaded===urls.length){
-          viewer.innerHTML='';
-          if(failed===urls.length){
-            const err=document.createElement('div'); err.className='error-msg'; err.textContent='Épisode non disponible'; viewer.appendChild(err);
-          }else{
-            urls.forEach((src,i)=>{ const tag=document.createElement('img'); tag.src=src; tag.style.animationDelay=`${i*0.3}s`; tag.onerror=()=>tag.remove(); viewer.appendChild(tag); });
+        if (loaded === urls.length){
+          viewer.innerHTML = '';
+          if (failed === urls.length){
+            const err = document.createElement('div');
+            err.className = 'error-msg';
+            err.textContent = 'Épisode non disponible';
+            viewer.appendChild(err);
+          } else {
+            const polaroidSrc = (epNum && polaroidMap[epNum]) ? polaroidMap[epNum].url : null;
+
+            urls.forEach((src,i) => {
+              const tag = document.createElement('img');
+              tag.src = src;
+              tag.style.animationDelay = `${i*0.3}s`;
+              tag.onerror = () => tag.remove();
+
+              // Marque le polaroid pour lui laisser une marge, colle les pages entre elles
+              if (polaroidSrc && src === polaroidSrc) {
+                tag.className = 'polaroid'; // a une marge-bottom (via CSS)
+              } else {
+                tag.className = 'page';     // aucune marge entre pages
+              }
+
+              viewer.appendChild(tag);
+            });
           }
-          renderNav(); viewer.classList.add('show'); scrollViewerToTop();
+          renderNav();
+          viewer.classList.add('show');
+          scrollViewerToTop();
         }
       }
     }

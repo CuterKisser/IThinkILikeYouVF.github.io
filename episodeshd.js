@@ -1,5 +1,14 @@
 const episodes = [
     {
+        value: '118.png',
+        text: 'Le Verdict',
+        description: 'i think i like you VF episode 118 HD',
+        preview: '118-preview.webp',
+        url: ['118-1.png', '118-2.png'],
+        multi: true
+    },
+    { value: 'polaroid117.webp', text: "Polaroid #117", description: 'i think i like you VF polaroid n°13', url: 'polaroid117.webp' },
+    {
         value: '117.png',
         text: 'Le Procès',
         description: 'i think i like you VF episode 117 HD',
