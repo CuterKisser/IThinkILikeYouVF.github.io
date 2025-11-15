@@ -241,14 +241,31 @@
       if(idx!==-1) showEpisodeByIndex(idx);
     });
 
+    // function getRequestedEpisodeNumber(){
+    //   const q=location.search, h=location.hash, p=location.pathname;
+    //   const m1=q.match(/[?&](?:ep|episode)=(\d{1,4})/i); if(m1) return m1[1];
+    //   const m2=h.match(/(\d{1,4})/); if(m2) return m2[1];
+    //   const m3=p.match(/polaroid(\d{1,4})/i); if(m3) return m3[1];
+    //   const m4=p.match(/(\d{1,4})(?!.*\d)/); if(m4) return m4[1];
+    //   const m5=String(location.href).match(/(\d{1,4})(?!.*\d)/); return m5?m5[1]:null;
+    // }
+
     function getRequestedEpisodeNumber(){
-      const q=location.search, h=location.hash, p=location.pathname;
-      const m1=q.match(/[?&](?:ep|episode)=(\d{1,4})/i); if(m1) return m1[1];
-      const m2=h.match(/(\d{1,4})/); if(m2) return m2[1];
-      const m3=p.match(/polaroid(\d{1,4})/i); if(m3) return m3[1];
-      const m4=p.match(/(\d{1,4})(?!.*\d)/); if(m4) return m4[1];
-      const m5=String(location.href).match(/(\d{1,4})(?!.*\d)/); return m5?m5[1]:null;
+      const q = location.search;
+      const h = location.hash;
+
+      // ?ep=20 ou ?episode=20
+      const m1 = q.match(/[?&](?:ep|episode)=(\d{1,4})/i);
+      if (m1) return m1[1];
+
+      // #20 dans l'URL
+      const m2 = h.match(/(\d{1,4})/);
+      if (m2) return m2[1];
+
+      // Sinon, rien demandé
+      return null;
     }
+
     function findIndexByEpisodeNumber(numStr){
       const num=String(numStr);
       return flatEpisodes.findIndex(ep=>{
@@ -257,16 +274,37 @@
       });
     }
 
-    window.addEventListener('load',()=>{
-      const requested=getRequestedEpisodeNumber();
-      if(requested){
-        const idx=findIndexByEpisodeNumber(requested);
-        if(idx!==-1){ showEpisodeByIndex(idx); return; }
+    // window.addEventListener('load',()=>{
+    //   const requested=getRequestedEpisodeNumber();
+    //   if(requested){
+    //     const idx=findIndexByEpisodeNumber(requested);
+    //     if(idx!==-1){ showEpisodeByIndex(idx); return; }
+    //   }
+    //   const eps=flatEpisodes; if(!eps.length) return;
+    //   const idx=eps.length-1; showEpisodeByIndex(idx);
+    // });
+
+    window.addEventListener('load', () => {
+      const requested = getRequestedEpisodeNumber();
+      if (requested) {
+        const idx = findIndexByEpisodeNumber(requested);
+        if (idx !== -1) {
+          showEpisodeByIndex(idx);
+          return;
+        }
       }
-      const eps=flatEpisodes; if(!eps.length) return;
-      const idx=eps.length-1; showEpisodeByIndex(idx);
+
+      const eps = flatEpisodes;
+      if (!eps.length) return;
+
+      const coverIdx = eps.findIndex(ep => ep.value === 'cover.png');
+
+      const idx = coverIdx !== -1 ? coverIdx : eps.length - 1;
+      showEpisodeByIndex(idx);
     });
+
     document.addEventListener('contextmenu', e => e.preventDefault());
+
   </script>
 </body>
 </html>

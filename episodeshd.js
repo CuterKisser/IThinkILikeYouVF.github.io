@@ -210,5 +210,6 @@ const episodes = [
     { value: '3.png', text: 'Évaluez votre livraison - Très insatisfait', description: 'i think i like you VF episode 3 HD', preview: '3-preview.png', url: '3.png' },
     { value: '2.png', text: 'Statut de livraison - de retour sur le planning', description: 'i think i like you VF episode 2 HD', preview: '2-preview.png', url: '2.png' },
     { value: '1.png', text: 'Livraison de colis', description: 'i think i like you VF episode 1 HD', preview: '1-preview.png', url: '1.png' },
+    { value: 'cover.png', text: 'Cover', description: 'i think i like you VF episode cover', preview: 'cover-preview.png', url: 'cover.png' },
     { value: '', text: '/\\ Saison 1  /\\', description: 'i think i like you VF saison 1 HD', disabled: true }
 ];
