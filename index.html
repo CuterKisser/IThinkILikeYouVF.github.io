@@ -58,7 +58,6 @@
   <!-- Thème -->
   <link rel="stylesheet" href="css/theme-halloween.css" />
   <style>
-    #viewer { line-height: 0; }
     #viewer img { display: block; }
     #viewer img.polaroid { margin-bottom: 24px; }
     #viewer img.page { margin-bottom: 0; }
@@ -66,7 +65,7 @@
 </head>
 
 
-<!-- "neon" / "halloween" / "noel" / "hiver" / "valentin" / "arcade" -->
+<!-- "neon" / "halloween" / "noel" / "snownoel" / "valentin" / -->
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MDQGCWG5" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
@@ -173,10 +172,13 @@
       setActiveByIndex(index);
 
       viewer.innerHTML = '';
+
       const loading = document.createElement('div');
       loading.className = 'loading';
       loading.textContent = 'Veuillez patienter le temps du chargement…';
       viewer.appendChild(loading);
+
+      viewer.classList.add('show');
 
       const epNum = (ep.value.match(/(\d+)/)||[])[1];
       let urls = [];
