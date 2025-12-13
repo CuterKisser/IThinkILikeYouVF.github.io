@@ -1,5 +1,37 @@
 const episodes = [
     {
+        value: '123.jpg',
+        text: "Le park",
+        description: 'i think i like you VF episode 123',
+        preview: '123-preview.webp',
+        url: ['123-1.jpg', '123-2.jpg'],
+        multi: true
+    },
+    {
+        value: '122.jpg',
+        text: "Aveugle",
+        description: 'i think i like you VF episode 122',
+        preview: '122-preview.webp',
+        url: ['122-1.jpg', '122-2.jpg'],
+        multi: true
+    },
+    {
+        value: '121.jpg',
+        text: "Il faut qu'on parle",
+        description: 'i think i like you VF episode 121',
+        preview: '121-preview.webp',
+        url: ['121-1.jpg', '121-2.jpg'],
+        multi: true
+    },
+    {
+        value: '120.jpg',
+        text: 'Skatepark',
+        description: 'i think i like you VF episode 120',
+        preview: '120-preview.webp',
+        url: ['120-1.jpg', '120-2.jpg'],
+        multi: true
+    },
+    {
         value: '119.jpg',
         text: 'De retour !',
         description: 'i think i like you VF episode 119',
