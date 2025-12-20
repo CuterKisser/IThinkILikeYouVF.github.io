@@ -148,9 +148,14 @@
       seasonsRoot.appendChild(wrap); seasonNodes.push({wrap,header,title:season.title,episodes});
     });
 
-    const maxSeason=seasonNodes.reduce((a,s)=>{ const n=parseInt((s.title.match(/\d+/)||[-Infinity])[0]); return (n>a.n)?{n,node:s}:a; }, {n:-Infinity,node:null});
-    seasonNodes.forEach(s=>s.wrap.classList.remove('open'));
-    if(maxSeason.node) maxSeason.node.wrap.classList.add('open'); else if(seasonNodes[0]) seasonNodes[0].wrap.classList.add('open');
+    // Open the last season
+    // const maxSeason=seasonNodes.reduce((a,s)=>{ const n=parseInt((s.title.match(/\d+/)||[-Infinity])[0]); return (n>a.n)?{n,node:s}:a; }, {n:-Infinity,node:null});
+    // seasonNodes.forEach(s=>s.wrap.classList.remove('open'));
+    // if(maxSeason.node) maxSeason.node.wrap.classList.add('open'); else if(seasonNodes[0]) seasonNodes[0].wrap.classList.add('open');
+
+    // Close all
+    seasonNodes.forEach(s => s.wrap.classList.remove('open'));
+
 
     let currentIndex=-1,lastActiveCard=null;
     function setActiveByIndex(index){
