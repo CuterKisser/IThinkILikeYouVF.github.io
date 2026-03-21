@@ -1,4 +1,12 @@
 const episodes = [
+    {
+        value: '125.jpg',
+        text: "Inattendu",
+        description: 'i think i like you VF episode 125',
+        preview: '125-preview.webp',
+        url: ['125-1.jpg', '125-2.jpg'],
+        multi: true
+    },
     { value: '', text: '/\\ Saison 4  /\\', description: 'i think i like you VF saison 4', disabled: true },
     {
         value: '124.jpg',
