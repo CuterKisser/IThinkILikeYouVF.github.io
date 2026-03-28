@@ -1,5 +1,13 @@
 const episodes = [
     {
+        value: '126.png',
+        text: "Rattraper le temps perdu",
+        description: 'i think i like you VF episode 126 HD',
+        preview: '126-preview.webp',
+        url: ['126-1.png', '126-2.png'],
+        multi: true
+    },
+    {
         value: '125.png',
         text: "Inattendu",
         description: 'i think i like you VF episode 125 HD',
