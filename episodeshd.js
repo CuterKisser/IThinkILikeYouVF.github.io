@@ -302,11 +302,31 @@ const episodes = [
         url: ['61-1.png', '61-2.png', '61-3.png', '61-4.png', '61-5.png', '61-6.png', '61-7.png'],
         multi: true
     },
-    { value: '60.png', text: "Double perception", description: 'i think i like you VF episode 60 HD', preview: '60-preview.png', url: '60.png' },
-    { value: '59.png', text: "Juste toi et moi", description: 'i think i like you VF episode 59 HD', preview: '59-preview.png', url: '59.png' },
-    { value: '58.png', text: "Crush", description: 'i think i like you VF episode 58', preview: '58-preview.png', url: '58.png' },
-    { value: '57.png', text: "Retour à la surface", description: 'i think i like you VF episode 57 HD', preview: '57-preview.png', url: '57.png' },
-    { value: '56.png', text: "L'Underground", description: 'i think i like you VF episode 56 HD', preview: '56-preview.png', url: '56.png' },
+    {
+        value: '60.webp', text: "Double perception",
+        description: 'i think i like you VF episode 60 HD',
+        preview: '60-preview.webp', url: ['60-1.webp', '60-2.webp', '60-3.webp', '60-4.webp'], multi: true
+    },
+    {
+        value: '59.webp', text: "Juste toi et moi",
+        description: 'i think i like you VF episode 59 HD',
+        preview: '59-preview.webp', url: ['59-1.webp', '59-2.webp', '59-3.webp', '59-4.webp'], multi: true
+    },
+    {
+        value: '58.webp', text: "Crush",
+        description: 'i think i like you VF episode 58 HD',
+        preview: '58-preview.webp', url: ['58-1.webp', '58-2.webp', '58-3.webp'], multi: true
+    },
+    {
+        value: '57.webp', text: "Retour à la surface",
+        description: 'i think i like you VF episode 57 HD',
+        preview: '57-preview.webp', url: ['57-1.webp', '57-2.webp', '57-3.webp', '57-4.webp'], multi: true
+    },
+    {
+        value: '56.webp', text: "L'Underground",
+        description: 'i think i like you VF episode 56 HD',
+        preview: '56-preview.webp', url: ['56-1.webp', '56-2.webp', '56-3.webp', '56-4.webp'], multi: true
+    },
     {
         value: '55.webp', text: "Rencontrer et saluer",
         description: 'i think i like you VF episode 55 HD',
