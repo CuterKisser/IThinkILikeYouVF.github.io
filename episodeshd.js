@@ -273,11 +273,6 @@ const episodes = [
     { value: '78.png', text: "Tourtereaux", description: 'i think i like you VF episode 78 HD', preview: '78-preview.png', url: '78.png' },
     { value: '77.png', text: "Merci", description: 'i think i like you VF episode 77 HD', preview: '77-preview.png', url: '77.png' },
     { value: '76.png', text: "L'Intrus", description: 'i think i like you VF episode 76 HD', preview: '76-preview.png', url: '76.png' },
-    { value: '75.png', text: "Nouveau lieu", description: 'i think i like you VF episode 75 HD', preview: '75-preview.png', url: '75.png' },
-    { value: '74.png', text: "Résolution", description: 'i think i like you VF episode 74 HD', preview: '74-preview.png', url: '74.png' },
-    { value: '73.png', text: "Discussion", description: 'i think i like you VF episode 73 HD', preview: '73-preview.png', url: '73.png' },
-    { value: '72.png', text: "Écoute Red", description: 'i think i like you VF episode 72 HD', preview: '72-preview.png', url: '72.png' },
-    { value: '71.png', text: "Nouvel ami", description: 'i think i like you VF episode 71 HD', preview: '71-preview.png', url: '71.png' },
     {
         value: '75.webp', text: "Nouveau lieu",
         description: 'i think i like you VF episode 75 HD',
