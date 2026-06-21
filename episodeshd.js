@@ -391,7 +391,7 @@ const episodes = [
     {
         value: '27.webp', text: "Spécial Roadtrip - Part 3 - Bonne nuit",
         description: 'i think i like you VF episode 27 HD',
-        preview: '27-preview.webp', url: ['27-1.webp', '27-2.webp', '27-3.webp', multi: true
+        preview: '27-preview.webp', url: ['27-1.webp', '27-2.webp', '27-3.webp'], multi: true
     },
     {
         value: '26.webp', text: "Spécial Roadtrip - Part 2 - Roadtrip",
