@@ -317,12 +317,32 @@ const episodes = [
     { value: '48.png', text: 'Urgence', description: 'i think i like you VF episode 48 HD', preview: '48-preview.png', url: '48.png' },
     { value: '47.png', text: 'Espionnage innocent', description: 'i think i like you VF episode 47 HD', preview: '47-preview.png', url: '47.png' },
     { value: '46.png', text: 'Protégé', description: 'i think i like you VF episode 46 HD', preview: '46-preview.png', url: '46.png' },
-    { value: '45.png', text: 'Pas de cette façon', description: 'i think i like you VF episode 45 HD', preview: '45-preview.png', url: '45.png' },
-    { value: '44.png', text: 'Je crois que je te connais', description: 'i think i like you VF episode 44 HD', preview: '44-preview.png', url: '44.png' },
+    {
+        value: '45.webp', text: "Pas de cette façon",
+        description: 'i think i like you VF episode 45 HD',
+        preview: '45-preview.webp', url: ['45-1.webp', '45-2.webp', '45-3.webp', '45-4.webp'], multi: true
+    },
+    {
+        value: '44.webp', text: "Je crois que je te connais",
+        description: 'i think i like you VF episode 44 HD',
+        preview: '44-preview.webp', url: ['44-1.webp', '44-2.webp', '44-3.webp', '44-4.webp'], multi: true
+    },
     { value: '', text: '/\\ Saison 2  /\\', description: 'i think i like you VF saison 2 HD', disabled: true },
-    { value: '43.png', text: 'Spécial DnD - Part 4 - Célébration', description: 'i think i like you VF episode 43 HD', preview: '43-preview.png', url: '43.png' },
-    { value: '42.png', text: 'Spécial DnD - Part 3 - Château de la mort', description: 'i think i like you VF episode 42 HD', preview: '42-preview.png', url: '42.png' },
-    { value: '41.png', text: 'Spécial DnD - Part 2 - Le Pacte', description: 'i think i like you VF episode 41 HD', preview: '41-preview.png', url: '41.png' },
+    {
+        value: '43.webp', text: "Spécial DnD - Part 4 - Célébration",
+        description: 'i think i like you VF episode 43 HD',
+        preview: '43-preview.webp', url: ['43-1.webp', '43-2.webp', '43-3.webp', '43-4.webp', '43-5.webp', '43-6.webp'], multi: true
+    },
+    {
+        value: '42.webp', text: "Spécial DnD - Part 3 - Château de la mort",
+        description: 'i think i like you VF episode 42 HD',
+        preview: '42-preview.webp', url: ['42-1.webp', '42-2.webp', '42-3.webp'], multi: true
+    },
+    {
+        value: '41.webp', text: "Spécial DnD - Part 2 - Le Pacte",
+        description: 'i think i like you VF episode 41 HD',
+        preview: '41-preview.webp', url: ['41-1.webp', '41-2.webp', '41-3.webp', '41-4.webp'], multi: true
+    },
     {
         value: '40.webp', text: "Spécial DnD - Part 1 - L'aventure commence !",
         description: 'i think i like you VF episode 40 HD',
@@ -341,7 +361,7 @@ const episodes = [
     {
         value: '37.webp', text: "Je crois que je t'aime",
         description: 'i think i like you VF episode 37 HD',
-        preview: '37-preview.webp', url: ['37-1.webp', '37-2.webp', '37-3.webp', '37-4.webp', '36-5.webp'], multi: true
+        preview: '37-preview.webp', url: ['37-1.webp', '37-2.webp', '37-3.webp', '37-4.webp', '37-5.webp'], multi: true
     },
     {
         value: '36.webp', text: "Limite dépassée",
