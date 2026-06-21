@@ -343,95 +343,105 @@ const episodes = [
     { value: '23.png', text: 'Soirée entre potes - Part 2', description: 'i think i like you VF episode 23 HD', preview: '23-preview.png', url: '23.png' },
     { value: '22.png', text: 'Soirée entre potes - Part 1', description: 'i think i like you VF episode 22 HD', preview: '22-preview.png', url: '22.png' },
     { value: '21.png', text: 'Dev déteste', description: 'i think i like you VF episode 21 HD', preview: '21-preview.png', url: '21.png' },
-    { value: '20.png', text: 'Pride - Part 2', description: 'i think i like you VF episode 20 HD', preview: '20-preview.png', url: '20.png' },
-    { value: '19.png', text: 'Pride - Part 1', description: 'i think i like you VF episode 19 HD', preview: '19-preview.png', url: '19.png' },
-    { value: '18.png', text: 'Escapade à la plage - Part 2', description: 'i think i like you VF episode 18 HD', preview: '18-preview.png', url: '18.png' },
-    { value: '17.png', text: 'Escapade à la plage - Part 1', description: 'i think i like you VF episode 17 HD', preview: '17-preview.png', url: '17.png' },
-    { value: '16.png', text: 'Brunch', description: 'i think i like you VF episode 16 HD', preview: '16-preview.png', url: '16.png' },
-    { value: '15.png', text: 'Rivalité', description: 'i think i like you VF episode 15 HD', preview: '15-preview.png', url: '15.png' },
-    { value: '14.png', text: 'Un ami', description: 'i think i like you VF episode 14 HD', preview: '14-preview.png', url: '14.png' },
-    { value: '13.png', text: 'Expression Impassible', description: 'i think i like you VF episode 13 HD', preview: '13-preview.png', url: '13.png' },
-    { value: '12.png', text: 'Partage de loisirs', description: 'i think i like you VF episode 12 HD', preview: '12-preview.png', url: '12.png' },
-    { value: '11.png', text: 'I think I craft you', description: 'i think i like you VF episode 11 HD', preview: '11-preview.png', url: '11.png' },
     {
-        value: '10.webp',
-        text: "Jour pluvieux",
+        value: '20.webp', text: "Pride - Part 2",
+        description: 'i think i like you VF episode 20 HD',
+        preview: '20-preview.webp', url: ['20-1.webp', '20-2.webp', '20-3.webp', '20-4.webp'], multi: true
+    },
+    {
+        value: '19.webp', text: "Pride - Part 1",
+        description: 'i think i like you VF episode 19 HD',
+        preview: '19-preview.webp', url: ['19-1.webp', '19-2.webp', '19-3.webp', '19-4.webp'], multi: true
+    },
+    {
+        value: '18.webp', text: "Escapade à la plage - Part 2",
+        description: 'i think i like you VF episode 18 HD',
+        preview: '18-preview.webp', url: ['18-1.webp', '18-2.webp', '18-3.webp'], multi: true
+    },
+    {
+        value: '17.webp', text: "Escapade à la plage - Part 1",
+        description: 'i think i like you VF episode 17 HD',
+        preview: '17-preview.webp', url: ['17-1.webp', '17-2.webp', '17-3.webp'], multi: true
+    },
+    {
+        value: '16.webp', text: "Brunch",
+        description: 'i think i like you VF episode 16 HD',
+        preview: '16-preview.webp', url: ['16-1.webp', '16-2.webp', '16-3.webp'], multi: true
+    },
+    {
+        value: '15.webp', text: "Rivalité",
+        description: 'i think i like you VF episode 15 HD',
+        preview: '15-preview.webp', url: ['15-1.webp', '15-2.webp', '15-3.webp'], multi: true
+    },
+    {
+        value: '14.webp', text: "Un ami",
+        description: 'i think i like you VF episode 14 HD',
+        preview: '14-preview.webp', url: ['14-1.webp', '14-2.webp', '14-3.webp'], multi: true
+    },
+    {
+        value: '13.webp', text: "Expression Impassible",
+        description: 'i think i like you VF episode 13 HD',
+        preview: '13-preview.webp', url: ['13-1.webp', '13-2.webp', '13-3.webp'], multi: true
+    },
+    {
+        value: '12.webp', text: "Partage de loisirs",
+        description: 'i think i like you VF episode 12 HD',
+        preview: '12-preview.webp', url: ['12-1.webp', '12-2.webp', '12-3.webp'], multi: true
+    },
+    {
+        value: '11.webp', text: "I think I craft you",
+        description: 'i think i like you VF episode 11 HD',
+        preview: '11-preview.webp', url: ['11-1.webp', '11-2.webp', '11-3.webp'], multi: true
+    },
+    {
+        value: '10.webp', text: "Jour pluvieux",
         description: 'i think i like you VF episode 10 HD',
-        preview: '10-preview.webp',
-        url: ['10-1.webp', '10-2.webp'],
-        multi: true
+        preview: '10-preview.webp', url: ['10-1.webp', '10-2.webp'], multi: true
     },
     {
-        value: '9.webp',
-        text: "Café",
+        value: '9.webp', text: "Café",
         description: 'i think i like you VF episode 9 HD',
-        preview: '9-preview.webp',
-        url: ['9-1.webp', '9-2.webp'],
-        multi: true
+        preview: '9-preview.webp', url: ['9-1.webp', '9-2.webp'], multi: true
     },
     {
-        value: '8.webp',
-        text: "Sortie entre potes",
+        value: '8.webp', text: "Sortie entre potes",
         description: 'i think i like you VF episode 8 HD',
-        preview: '8-preview.webp',
-        url: ['8-1.webp', '8-2.webp'],
-        multi: true
+        preview: '8-preview.webp', url: ['8-1.webp', '8-2.webp'], multi: true
     },
     {
-        value: '7.webp',
-        text: "Salut ! Moi, c'est...",
+        value: '7.webp', text: "Salut ! Moi, c'est...",
         description: 'i think i like you VF episode 7 HD',
-        preview: '7-preview.webp',
-        url: ['7-1.webp', '7-2.webp'],
-        multi: true
+        preview: '7-preview.webp', url: ['7-1.webp', '7-2.webp'], multi: true
     },
     {
-        value: '6.webp',
-        text: "Reste sur tes gardes",
+        value: '6.webp', text: "Reste sur tes gardes",
         description: 'i think i like you VF episode 6 HD',
-        preview: '6-preview.webp',
-        url: ['6-1.webp', '6-2.webp', '6-3.webp'],
-        multi: true
+        preview: '6-preview.webp', url: ['6-1.webp', '6-2.webp', '6-3.webp'], multi: true
     },
     {
-        value: '5.webp',
-        text: "Quelle coïncidence !",
+        value: '5.webp', text: "Quelle coïncidence !",
         description: 'i think i like you VF episode 5 HD',
-        preview: '5-preview.webp',
-        url: ['5-1.webp', '5-2.webp', '5-3.webp'],
-        multi: true
+        preview: '5-preview.webp', url: ['5-1.webp', '5-2.webp', '5-3.webp'], multi: true
     },
     {
-        value: '4.webp',
-        text: "Livraison retardée - Ça en valait la peine !",
+        value: '4.webp', text: "Livraison retardée - Ça en valait la peine !",
         description: 'i think i like you VF episode 4 HD',
-        preview: '4-preview.webp',
-        url: ['4-1.webp', '4-2.webp'],
-        multi: true
+        preview: '4-preview.webp', url: ['4-1.webp', '4-2.webp'], multi: true
     },
     {
-        value: '3.webp',
-        text: "Évaluez votre livraison - Très insatisfait",
+        value: '3.webp', text: "Évaluez votre livraison - Très insatisfait",
         description: 'i think i like you VF episode 3 HD',
-        preview: '3-preview.webp',
-        url: ['3-1.webp', '3-2.webp'],
-        multi: true
+        preview: '3-preview.webp', url: ['3-1.webp', '3-2.webp'], multi: true
     },
     {
-        value: '2.webp',
-        text: "Statut de livraison - de retour sur le planning",
+        value: '2.webp', text: "Statut de livraison - de retour sur le planning",
         description: 'i think i like you VF episode 2 HD',
-        preview: '2-preview.webp',
-        url: ['2-1.webp', '2-2.webp'],
-        multi: true
+        preview: '2-preview.webp', url: ['2-1.webp', '2-2.webp'], multi: true
     },
     {
-        value: '1.webp',
-        text: "Livraison de colis",
+        value: '1.webp', text: "Livraison de colis",
         description: 'i think i like you VF episode 1 HD',
-        preview: '1-preview.webp',
-        url: ['1-1.webp', '1-2.webp'],
-        multi: true
+        preview: '1-preview.webp', url: ['1-1.webp', '1-2.webp'], multi: true
     },
     { value: 'cover.png', text: 'Cover', description: 'i think i like you VF episode cover', preview: 'cover-preview.png', url: 'cover.png' },
     { value: '', text: '/\\ Saison 1  /\\', description: 'i think i like you VF saison 1 HD', disabled: true }
