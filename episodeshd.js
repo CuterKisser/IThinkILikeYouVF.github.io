@@ -328,11 +328,31 @@ const episodes = [
     { value: '38.png', text: "Je t'aime", description: 'i think i like you VF episode 38 HD', preview: '38-preview.png', url: '38.png' },
     { value: '37.png', text: "Je crois que je t'aime", description: 'i think i like you VF episode 37 HD', preview: '37-preview.png', url: '37.png' },
     { value: '36.png', text: 'Limite dépassée', description: 'i think i like you VF episode 36 HD', preview: '36-preview.png', url: '36.png' },
-    { value: '35.png', text: 'Limite atteinte', description: 'i think i like you VF episode 35 HD', preview: '35-preview.png', url: '35.png' },
-    { value: '34.png', text: "Ray, l'Omniscient", description: 'i think i like you VF episode 34 HD', preview: '34-preview.png', url: '34.png' },
-    { value: '33.png', text: 'Réception du colis à temps', description: 'i think i like you VF episode 33 HD', preview: '33-preview.png', url: '33.png' },
-    { value: '32.png', text: 'Rival Blessé', description: 'i think i like you VF episode 32 HD', preview: '32-preview.png', url: '32.png' },
-    { value: '31.png', text: 'Intervention', description: 'i think i like you VF episode 31 HD', preview: '31-preview.png', url: '31.png' },
+    {
+        value: '35.webp', text: "Limite atteinte",
+        description: 'i think i like you VF episode 35 HD',
+        preview: '35-preview.webp', url: ['35-1.webp', '35-2.webp', '35-3.webp', '35-4.webp'], multi: true
+    },
+    {
+        value: '34.webp', text: "Ray, l'Omniscient",
+        description: 'i think i like you VF episode 34 HD',
+        preview: '34-preview.webp', url: ['34-1.webp', '34-2.webp', '34-3.webp', '34-4.webp'], multi: true
+    },
+    {
+        value: '33.webp', text: "Réception du colis à temps",
+        description: 'i think i like you VF episode 33 HD',
+        preview: '33-preview.webp', url: ['33-1.webp', '33-2.webp', '33-3.webp', '33-4.webp'], multi: true
+    },
+    {
+        value: '32.webp', text: "Rival Blessé",
+        description: 'i think i like you VF episode 32 HD',
+        preview: '32-preview.webp', url: ['32-1.webp', '32-2.webp', '32-3.webp', '32-4.webp'], multi: true
+    },
+    {
+        value: '31.webp', text: "Intervention",
+        description: 'i think i like you VF episode 31 HD',
+        preview: '31-preview.webp', url: ['31-1.webp', '31-2.webp', '31-3.webp', '31-4.webp'], multi: true
+    },
     {
         value: '30.webp', text: "Spécial Roadtrip - Part 6 - Excellente compagnie",
         description: 'i think i like you VF episode 30 HD',
