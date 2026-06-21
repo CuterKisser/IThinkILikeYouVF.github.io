@@ -333,11 +333,31 @@ const episodes = [
     { value: '33.png', text: 'Réception du colis à temps', description: 'i think i like you VF episode 33 HD', preview: '33-preview.png', url: '33.png' },
     { value: '32.png', text: 'Rival Blessé', description: 'i think i like you VF episode 32 HD', preview: '32-preview.png', url: '32.png' },
     { value: '31.png', text: 'Intervention', description: 'i think i like you VF episode 31 HD', preview: '31-preview.png', url: '31.png' },
-    { value: '30.png', text: 'Spécial Roadtrip - Part 6 - Excellente compagnie', description: 'i think i like you VF episode 30 HD', preview: '30-preview.png', url: '30.png' },
-    { value: '29.png', text: 'Spécial Roadtrip - Part 5 - Bonne compagnie', description: 'i think i like you VF episode 29 HD', preview: '29-preview.png', url: '29.png' },
-    { value: '28.png', text: 'Spécial Roadtrip - Part 4 - Compagnie', description: 'i think i like you VF episode 28 HD', preview: '28-preview.png', url: '28.png' },
-    { value: '27.png', text: 'Spécial Roadtrip - Part 3 - Bonne nuit', description: 'i think i like you VF episode 27 HD', preview: '27-preview.png', url: '27.png' },
-    { value: '26.png', text: 'Spécial Roadtrip - Part 2 - Camping', description: 'i think i like you VF episode 26 HD', preview: '26-preview.png', url: '26.png' },
+    {
+        value: '30.webp', text: "Spécial Roadtrip - Part 6 - Excellente compagnie",
+        description: 'i think i like you VF episode 30 HD',
+        preview: '30-preview.webp', url: ['30-1.webp', '30-2.webp', '30-3.webp', '30-4.webp'], multi: true
+    },
+    {
+        value: '29.webp', text: "Spécial Roadtrip - Part 5 - Bonne compagnie",
+        description: 'i think i like you VF episode 29 HD',
+        preview: '29-preview.webp', url: ['29-1.webp', '29-2.webp', '29-3.webp', '29-4.webp'], multi: true
+    },
+    {
+        value: '28.webp', text: "Spécial Roadtrip - Part 4 - Compagnie",
+        description: 'i think i like you VF episode 28 HD',
+        preview: '28-preview.webp', url: ['28-1.webp', '28-2.webp', '28-3.webp', '28-4.webp'], multi: true
+    },
+    {
+        value: '27.webp', text: "Spécial Roadtrip - Part 3 - Bonne nuit",
+        description: 'i think i like you VF episode 27 HD',
+        preview: '27-preview.webp', url: ['27-1.webp', '27-2.webp', '27-3.webp', multi: true
+    },
+    {
+        value: '26.webp', text: "Spécial Roadtrip - Part 2 - Roadtrip",
+        description: 'i think i like you VF episode 26 HD',
+        preview: '26-preview.webp', url: ['26-1.webp', '26-2.webp', '26-3.webp', '26-4.webp'], multi: true
+    },
     {
         value: '25.webp', text: "Spécial Roadtrip - Part 1 - Roadtrip",
         description: 'i think i like you VF episode 25 HD',
