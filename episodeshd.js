@@ -1,10 +1,10 @@
 const episodes = [
     {
-        value: '138.png',
+        value: '138.webp',
         text: "Sérénade",
         description: 'i think i like you VF episode 138 HD',
         preview: '138-preview.webp',
-        url: ['138-1.png', '138-2.png', '138-3.png', '138-4.png', '138-5.png', '138-6.png'],
+        url: ['138-1.webp', '138-2.webp', '138-3.webp', '138-4.webp', '138-5.webp', '138-6.webp'],
         multi: true
     },
     {
@@ -358,11 +358,46 @@ const episodes = [
     { value: '8.png', text: 'Sortie entre potes', description: 'i think i like you VF episode 8 HD', preview: '8-preview.png', url: '8.png' },
     { value: '7.png', text: "Salut ! Moi, c'est...", description: 'i think i like you VF episode 7 HD', preview: '7-preview.png', url: '7.png' },
     { value: '6.png', text: 'Reste sur tes gardes', description: 'i think i like you VF episode 6 HD', preview: '6-preview.png', url: '6.png' },
-    { value: '5.png', text: 'Quelle coïncidence!', description: 'i think i like you VF episode 5 HD', preview: '5-preview.jpg', url: '5.png' },
-    { value: '4.png', text: 'Livraison retardée - Ça en valait la peine !', description: 'i think i like you VF episode 4 HD', preview: '4-preview.png', url: '4.png' },
-    { value: '3.png', text: 'Évaluez votre livraison - Très insatisfait', description: 'i think i like you VF episode 3 HD', preview: '3-preview.png', url: '3.png' },
-    { value: '2.png', text: 'Statut de livraison - de retour sur le planning', description: 'i think i like you VF episode 2 HD', preview: '2-preview.png', url: '2.png' },
-    { value: '1.png', text: 'Livraison de colis', description: 'i think i like you VF episode 1 HD', preview: '1-preview.png', url: '1.png' },
+    {
+        value: '5.webp',
+        text: "Quelle coïncidence !",
+        description: 'i think i like you VF episode 5 HD',
+        preview: '5-preview.webp',
+        url: ['5-1.webp', '5-2.webp', '5-3.webp'],
+        multi: true
+    },
+    {
+        value: '4.webp',
+        text: "Livraison retardée - Ça en valait la peine !",
+        description: 'i think i like you VF episode 4 HD',
+        preview: '4-preview.webp',
+        url: ['4-1.webp', '4-2.webp'],
+        multi: true
+    },
+    {
+        value: '3.webp',
+        text: "Évaluez votre livraison - Très insatisfait",
+        description: 'i think i like you VF episode 3 HD',
+        preview: '3-preview.webp',
+        url: ['3-1.webp', '3-2.webp'],
+        multi: true
+    },
+    {
+        value: '2.webp',
+        text: "Statut de livraison - de retour sur le planning",
+        description: 'i think i like you VF episode 2 HD',
+        preview: '2-preview.webp',
+        url: ['2-1.webp', '2-2.webp'],
+        multi: true
+    },
+    {
+        value: '1.webp',
+        text: "Livraison de colis",
+        description: 'i think i like you VF episode 1 HD',
+        preview: '1-preview.webp',
+        url: ['1-1.webp', '1-2.webp'],
+        multi: true
+    },
     { value: 'cover.png', text: 'Cover', description: 'i think i like you VF episode cover', preview: 'cover-preview.png', url: 'cover.png' },
     { value: '', text: '/\\ Saison 1  /\\', description: 'i think i like you VF saison 1 HD', disabled: true }
 ];
