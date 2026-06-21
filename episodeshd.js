@@ -278,11 +278,31 @@ const episodes = [
     { value: '73.png', text: "Discussion", description: 'i think i like you VF episode 73 HD', preview: '73-preview.png', url: '73.png' },
     { value: '72.png', text: "Écoute Red", description: 'i think i like you VF episode 72 HD', preview: '72-preview.png', url: '72.png' },
     { value: '71.png', text: "Nouvel ami", description: 'i think i like you VF episode 71 HD', preview: '71-preview.png', url: '71.png' },
-    { value: '70.png', text: "Partenaire", description: 'i think i like you VF episode 70 HD', preview: '70-preview.png', url: '70.png' },
-    { value: '69.png', text: "Potes de muscu", description: 'i think i like you VF episode 69 HD', preview: '69-preview.png', url: '69.png' },
-    { value: '68.png', text: "Vérité", description: 'i think i like you VF episode 68 HD', preview: '68-preview.png', url: '68.png' },
-    { value: '67.png', text: "Amour fraternel", description: 'i think i like you VF episode 67 HD', preview: '67-preview.png', url: '67.png' },
-    { value: '66.png', text: "Courrier livré", description: 'i think i like you VF episode 66 HD', preview: '66-preview.png', url: '66.png' },
+    {
+        value: '70.webp', text: "Partenaire",
+        description: 'i think i like you VF episode 70 HD',
+        preview: '70-preview.webp', url: ['70-1.webp', '70-2.webp', '70-3.webp', '70-4.webp'], multi: true
+    },
+    {
+        value: '69.webp', text: "Potes de muscu",
+        description: 'i think i like you VF episode 69 HD',
+        preview: '69-preview.webp', url: ['69-1.webp', '69-2.webp', '69-3.webp', '69-4.webp', '69-5.webp'], multi: true
+    },
+    {
+        value: '68.webp', text: "Vérité",
+        description: 'i think i like you VF episode 68 HD',
+        preview: '68-preview.webp', url: ['68-1.webp', '68-2.webp', '68-3.webp', '68-4.webp'], multi: true
+    },
+    {
+        value: '67.webp', text: "Amour fraternel",
+        description: 'i think i like you VF episode 67 HD',
+        preview: '67-preview.webp', url: ['67-1.webp', '67-2.webp', '67-3.webp', '67-4.webp', '67-5.webp'], multi: true
+    },
+    {
+        value: '66.webp', text: "Courrier livré",
+        description: 'i think i like you VF episode 66 HD',
+        preview: '66-preview.webp', url: ['66-1.webp', '66-2.webp', '66-3.webp', '66-4.webp', '66-5.webp'], multi: true
+    },
     {
         value: '65.webp', text: "Courrier reçu !",
         description: 'i think i like you VF episode 65 HD',
