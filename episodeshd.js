@@ -312,11 +312,31 @@ const episodes = [
     { value: '53.png', text: 'Bad boy', description: 'i think i like you VF episode 53 HD', preview: '53-preview.png', url: '53.png' },
     { value: '52.png', text: 'Crise existentielle', description: 'i think i like you VF episode 52 HD', preview: '52-preview.png', url: '52.png' },
     { value: '51.png', text: 'Tête-à-tête', description: 'i think i like you VF episode 51 HD', preview: '51-preview.png', url: '51.png' },
-    { value: '50.png', text: 'Fais tes preuves', description: 'i think i like you VF episode 50 HD', preview: '50-preview.png', url: '50.png' },
-    { value: '49.png', text: 'Fratrie', description: 'i think i like you VF episode 49 HD', preview: '49-preview.png', url: '49.png' },
-    { value: '48.png', text: 'Urgence', description: 'i think i like you VF episode 48 HD', preview: '48-preview.png', url: '48.png' },
-    { value: '47.png', text: 'Espionnage innocent', description: 'i think i like you VF episode 47 HD', preview: '47-preview.png', url: '47.png' },
-    { value: '46.png', text: 'Protégé', description: 'i think i like you VF episode 46 HD', preview: '46-preview.png', url: '46.png' },
+    {
+        value: '50.webp', text: "Fais tes preuves",
+        description: 'i think i like you VF episode 50 HD',
+        preview: '50-preview.webp', url: ['50-1.webp', '50-2.webp', '50-3.webp', '50-4.webp'], multi: true
+    },
+    {
+        value: '49.webp', text: "Fratrie",
+        description: 'i think i like you VF episode 49 HD',
+        preview: '49-preview.webp', url: ['49-1.webp', '49-2.webp', '49-3.webp', '49-4.webp'], multi: true
+    },
+    {
+        value: '48.webp', text: "Urgence",
+        description: 'i think i like you VF episode 48 HD',
+        preview: '48-preview.webp', url: ['48-1.webp', '48-2.webp', '48-3.webp', '48-4.webp', '48-5.webp'], multi: true
+    },
+    {
+        value: '47.webp', text: "Espionnage innocent",
+        description: 'i think i like you VF episode 47 HD',
+        preview: '47-preview.webp', url: ['47-1.webp', '47-2.webp', '47-3.webp', '47-4.webp'], multi: true
+    },
+    {
+        value: '46.webp', text: "Protégé",
+        description: 'i think i like you VF episode 46 HD',
+        preview: '46-preview.webp', url: ['46-1.webp', '46-2.webp', '46-3.webp', '46-4.webp'], multi: true
+    },
     {
         value: '45.webp', text: "Pas de cette façon",
         description: 'i think i like you VF episode 45 HD',
