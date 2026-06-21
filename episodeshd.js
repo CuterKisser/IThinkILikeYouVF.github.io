@@ -338,11 +338,31 @@ const episodes = [
     { value: '28.png', text: 'Spécial Roadtrip - Part 4 - Compagnie', description: 'i think i like you VF episode 28 HD', preview: '28-preview.png', url: '28.png' },
     { value: '27.png', text: 'Spécial Roadtrip - Part 3 - Bonne nuit', description: 'i think i like you VF episode 27 HD', preview: '27-preview.png', url: '27.png' },
     { value: '26.png', text: 'Spécial Roadtrip - Part 2 - Camping', description: 'i think i like you VF episode 26 HD', preview: '26-preview.png', url: '26.png' },
-    { value: '25.png', text: 'Spécial Roadtrip - Part 1 - Roadtrip', description: 'i think i like you VF episode 25 HD', preview: '25-preview.png', url: '25.png' },
-    { value: '24.png', text: 'En retard', description: 'i think i like you VF episode 24 HD', preview: '24-preview.png', url: '24.png' },
-    { value: '23.png', text: 'Soirée entre potes - Part 2', description: 'i think i like you VF episode 23 HD', preview: '23-preview.png', url: '23.png' },
-    { value: '22.png', text: 'Soirée entre potes - Part 1', description: 'i think i like you VF episode 22 HD', preview: '22-preview.png', url: '22.png' },
-    { value: '21.png', text: 'Dev déteste', description: 'i think i like you VF episode 21 HD', preview: '21-preview.png', url: '21.png' },
+    {
+        value: '25.webp', text: "Spécial Roadtrip - Part 1 - Roadtrip",
+        description: 'i think i like you VF episode 25 HD',
+        preview: '25-preview.webp', url: ['25-1.webp', '25-2.webp', '25-3.webp', '25-4.webp'], multi: true
+    },
+    {
+        value: '24.webp', text: "En retard",
+        description: 'i think i like you VF episode 24 HD',
+        preview: '24-preview.webp', url: ['24-1.webp', '24-2.webp', '24-3.webp', '24-4.webp'], multi: true
+    },
+    {
+        value: '23.webp', text: "Soirée entre potes - Part 2",
+        description: 'i think i like you VF episode 23 HD',
+        preview: '23-preview.webp', url: ['23-1.webp', '23-2.webp', '23-3.webp', '23-4.webp'], multi: true
+    },
+    {
+        value: '22.webp', text: "Soirée entre potes - Part 1",
+        description: 'i think i like you VF episode 22 HD',
+        preview: '22-preview.webp', url: ['22-1.webp', '22-2.webp', '22-3.webp', '22-4.webp'], multi: true
+    },
+    {
+        value: '21.webp', text: "Dev déteste",
+        description: 'i think i like you VF episode 21 HD',
+        preview: '21-preview.webp', url: ['21-1.webp', '21-2.webp', '21-3.webp', '21-4.webp'], multi: true
+    },
     {
         value: '20.webp', text: "Pride - Part 2",
         description: 'i think i like you VF episode 20 HD',
