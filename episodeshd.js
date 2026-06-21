@@ -353,11 +353,46 @@ const episodes = [
     { value: '13.png', text: 'Expression Impassible', description: 'i think i like you VF episode 13 HD', preview: '13-preview.png', url: '13.png' },
     { value: '12.png', text: 'Partage de loisirs', description: 'i think i like you VF episode 12 HD', preview: '12-preview.png', url: '12.png' },
     { value: '11.png', text: 'I think I craft you', description: 'i think i like you VF episode 11 HD', preview: '11-preview.png', url: '11.png' },
-    { value: '10.png', text: 'Jour pluvieux', description: 'i think i like you VF episode 10 HD', preview: '10-preview.png', url: '10.png' },
-    { value: '9.png', text: 'Café', description: 'i think i like you VF episode 9 HD', preview: '9-preview.png', url: '9.png' },
-    { value: '8.png', text: 'Sortie entre potes', description: 'i think i like you VF episode 8 HD', preview: '8-preview.png', url: '8.png' },
-    { value: '7.png', text: "Salut ! Moi, c'est...", description: 'i think i like you VF episode 7 HD', preview: '7-preview.png', url: '7.png' },
-    { value: '6.png', text: 'Reste sur tes gardes', description: 'i think i like you VF episode 6 HD', preview: '6-preview.png', url: '6.png' },
+    {
+        value: '10.webp',
+        text: "Jour pluvieux",
+        description: 'i think i like you VF episode 10 HD',
+        preview: '10-preview.webp',
+        url: ['10-1.webp', '10-2.webp'],
+        multi: true
+    },
+    {
+        value: '9.webp',
+        text: "Café",
+        description: 'i think i like you VF episode 9 HD',
+        preview: '9-preview.webp',
+        url: ['9-1.webp', '9-2.webp'],
+        multi: true
+    },
+    {
+        value: '8.webp',
+        text: "Sortie entre potes",
+        description: 'i think i like you VF episode 8 HD',
+        preview: '8-preview.webp',
+        url: ['8-1.webp', '8-2.webp'],
+        multi: true
+    },
+    {
+        value: '7.webp',
+        text: "Salut ! Moi, c'est...",
+        description: 'i think i like you VF episode 7 HD',
+        preview: '7-preview.webp',
+        url: ['7-1.webp', '7-2.webp'],
+        multi: true
+    },
+    {
+        value: '6.webp',
+        text: "Reste sur tes gardes",
+        description: 'i think i like you VF episode 6 HD',
+        preview: '6-preview.webp',
+        url: ['6-1.webp', '6-2.webp', '6-3.webp'],
+        multi: true
+    },
     {
         value: '5.webp',
         text: "Quelle coïncidence !",
