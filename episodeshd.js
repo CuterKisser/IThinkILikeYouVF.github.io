@@ -307,11 +307,31 @@ const episodes = [
     { value: '58.png', text: "Crush", description: 'i think i like you VF episode 58', preview: '58-preview.png', url: '58.png' },
     { value: '57.png', text: "Retour à la surface", description: 'i think i like you VF episode 57 HD', preview: '57-preview.png', url: '57.png' },
     { value: '56.png', text: "L'Underground", description: 'i think i like you VF episode 56 HD', preview: '56-preview.png', url: '56.png' },
-    { value: '55.png', text: 'Rencontrer et saluer', description: 'i think i like you VF episode 55 HD', preview: '55-preview.png', url: '55.png' },
-    { value: '54.png', text: 'Nos chemins se recroisent', description: 'i think i like you VF episode 54 HD', preview: '54-preview.png', url: '54.png' },
-    { value: '53.png', text: 'Bad boy', description: 'i think i like you VF episode 53 HD', preview: '53-preview.png', url: '53.png' },
-    { value: '52.png', text: 'Crise existentielle', description: 'i think i like you VF episode 52 HD', preview: '52-preview.png', url: '52.png' },
-    { value: '51.png', text: 'Tête-à-tête', description: 'i think i like you VF episode 51 HD', preview: '51-preview.png', url: '51.png' },
+    {
+        value: '55.webp', text: "Rencontrer et saluer",
+        description: 'i think i like you VF episode 55 HD',
+        preview: '55-preview.webp', url: ['55-1.webp', '55-2.webp', '55-3.webp', '55-4.webp'], multi: true
+    },
+    {
+        value: '54.webp', text: "Nos chemins se recroisent",
+        description: 'i think i like you VF episode 54 HD',
+        preview: '54-preview.webp', url: ['54-1.webp', '54-2.webp', '54-3.webp', '54-4.webp'], multi: true
+    },
+    {
+        value: '53.webp', text: "Bad boy",
+        description: 'i think i like you VF episode 53 HD',
+        preview: '53-preview.webp', url: ['53-1.webp', '53-2.webp', '53-3.webp', '53-4.webp'], multi: true
+    },
+    {
+        value: '52.webp', text: "Crise existentielle",
+        description: 'i think i like you VF episode 52 HD',
+        preview: '52-preview.webp', url: ['52-1.webp', '52-2.webp', '52-3.webp', '52-4.webp', '52-5.webp'], multi: true
+    },
+    {
+        value: '51.webp', text: "Tête-à-tête",
+        description: 'i think i like you VF episode 51 HD',
+        preview: '51-preview.webp', url: ['51-1.webp', '51-2.webp', '51-3.webp'], multi: true
+    },
     {
         value: '50.webp', text: "Fais tes preuves",
         description: 'i think i like you VF episode 50 HD',
