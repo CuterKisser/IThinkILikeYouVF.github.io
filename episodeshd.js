@@ -279,6 +279,31 @@ const episodes = [
     { value: '72.png', text: "Écoute Red", description: 'i think i like you VF episode 72 HD', preview: '72-preview.png', url: '72.png' },
     { value: '71.png', text: "Nouvel ami", description: 'i think i like you VF episode 71 HD', preview: '71-preview.png', url: '71.png' },
     {
+        value: '75.webp', text: "Nouveau lieu",
+        description: 'i think i like you VF episode 75 HD',
+        preview: '75-preview.webp', url: ['75-1.webp', '75-2.webp', '75-3.webp', '75-4.webp'], multi: true
+    },
+    {
+        value: '74.webp', text: "Résolution",
+        description: 'i think i like you VF episode 74 HD',
+        preview: '74-preview.webp', url: ['74-1.webp', '74-2.webp', '74-3.webp', '74-4.webp'], multi: true
+    },
+    {
+        value: '73.webp', text: "Discussion",
+        description: 'i think i like you VF episode 73 HD',
+        preview: '73-preview.webp', url: ['73-1.webp', '73-2.webp', '73-3.webp', '73-4.webp'], multi: true
+    },
+    {
+        value: '72.webp', text: "Écoute Red",
+        description: 'i think i like you VF episode 72 HD',
+        preview: '72-preview.webp', url: ['72-1.webp', '72-2.webp', '72-3.webp', '72-4.webp'], multi: true
+    },
+    {
+        value: '71.webp', text: "Nouvel ami",
+        description: 'i think i like you VF episode 71 HD',
+        preview: '71-preview.webp', url: ['71-1.webp', '71-2.webp', '71-3.webp', '71-4.webp'], multi: true
+    },
+    {
         value: '70.webp', text: "Partenaire",
         description: 'i think i like you VF episode 70 HD',
         preview: '70-preview.webp', url: ['70-1.webp', '70-2.webp', '70-3.webp', '70-4.webp'], multi: true
