@@ -268,11 +268,31 @@ const episodes = [
     { value: '83.png', text: "Amis", description: 'i think i like you VF episode 83 HD', preview: '83-preview.webp', url: '83.png' },
     { value: '82.png', text: "Promenade", description: 'i think i like you VF episode 82 HD', preview: '82-preview.webp', url: '82.png' },
     { value: '81.png', text: "Perdus et Retrouvés", description: 'i think i like you VF episode 81 HD', preview: '81-preview.png', url: '81.png' },
-    { value: '80.png', text: "Fin du voyage", description: 'i think i like you VF episode 80 HD', preview: '80-preview.png', url: '80.png' },
-    { value: '79.png', text: "La Mort de Sky", description: 'i think i like you VF episode 79 HD', preview: '79-preview.png', url: '79.png' },
-    { value: '78.png', text: "Tourtereaux", description: 'i think i like you VF episode 78 HD', preview: '78-preview.png', url: '78.png' },
-    { value: '77.png', text: "Merci", description: 'i think i like you VF episode 77 HD', preview: '77-preview.png', url: '77.png' },
-    { value: '76.png', text: "L'Intrus", description: 'i think i like you VF episode 76 HD', preview: '76-preview.png', url: '76.png' },
+    {
+        value: '80.webp', text: "Fin du voyage",
+        description: 'i think i like you VF episode 80 HD',
+        preview: '80-preview.webp', url: ['80-1.webp', '80-2.webp', '80-3.webp', '80-4.webp', '80-5.webp', '80-6.webp', '80-7.webp'], multi: true
+    },
+    {
+        value: '79.webp', text: "La Mort de Sky",
+        description: 'i think i like you VF episode 79 HD',
+        preview: '79-preview.webp', url: ['79-1.webp', '79-2.webp', '79-3.webp', '79-4.webp', '79-5.webp'], multi: true
+    },
+    {
+        value: '78.webp', text: "Tourtereaux",
+        description: 'i think i like you VF episode 78 HD',
+        preview: '78-preview.webp', url: ['78-1.webp', '78-2.webp', '78-3.webp', '78-4.webp'], multi: true
+    },
+    {
+        value: '77.webp', text: "Merci",
+        description: 'i think i like you VF episode 77 HD',
+        preview: '77-preview.webp', url: ['77-1.webp', '77-2.webp', '77-3.webp', '77-4.webp'], multi: true
+    },
+    {
+        value: '76.webp', text: "L'Intrus",
+        description: 'i think i like you VF episode 76 HD',
+        preview: '76-preview.webp', url: ['76-1.webp', '76-2.webp', '76-3.webp', '76-4.webp', '76-5.webp'], multi: true
+    },
     {
         value: '75.webp', text: "Nouveau lieu",
         description: 'i think i like you VF episode 75 HD',
