@@ -283,24 +283,30 @@ const episodes = [
     { value: '68.png', text: "Vérité", description: 'i think i like you VF episode 68 HD', preview: '68-preview.png', url: '68.png' },
     { value: '67.png', text: "Amour fraternel", description: 'i think i like you VF episode 67 HD', preview: '67-preview.png', url: '67.png' },
     { value: '66.png', text: "Courrier livré", description: 'i think i like you VF episode 66 HD', preview: '66-preview.png', url: '66.png' },
-    { value: '65.png', text: "Courrier reçu !", description: 'i think i like you VF episode 65 HD', preview: '65-preview.png', url: '65.png' },
-    { value: '64.png', text: "Je t'ai eu !", description: 'i think i like you VF episode 64 HD', preview: '64-preview.png', url: '64.png' },
-    { value: '63.png', text: "Le lendemain", description: 'i think i like you VF episode 63 HD', preview: '63-preview.png', url: '63.png' },
     {
-        value: '62.png',
-        text: 'Conneries Nocturnes',
-        description: 'i think i like you VF episode 62 HD',
-        preview: '62-preview.png',
-        url: ['62-1.png', '62-2.png', '62-3.png'],
-        multi: true
+        value: '65.webp', text: "Courrier reçu !",
+        description: 'i think i like you VF episode 65 HD',
+        preview: '65-preview.webp', url: ['65-1.webp', '65-2.webp', '65-3.webp', '65-4.webp'], multi: true
     },
     {
-        value: '61.png',
-        text: 'Prêteur sur gages 24h24',
+        value: '64.webp', text: "Je t'ai eu !",
+        description: 'i think i like you VF episode 64 HD',
+        preview: '64-preview.webp', url: ['64-1.webp', '64-2.webp', '64-3.webp', '64-4.webp', '64-5.webp'], multi: true
+    },
+    {
+        value: '63.webp', text: "Le lendemain",
+        description: 'i think i like you VF episode 63 HD',
+        preview: '63-preview.webp', url: ['63-1.webp', '63-2.webp', '63-3.webp', '63-4.webp'], multi: true
+    },
+    {
+        value: '62.webp', text: "Conneries Nocturnes",
+        description: 'i think i like you VF episode 62 HD',
+        preview: '62-preview.webp', url: ['62-1.webp', '62-2.webp', '62-3.webp', '62-4.webp'], multi: true
+    },
+    {
+        value: '61.webp', text: "Prêteur sur gages 24h24",
         description: 'i think i like you VF episode 61 HD',
-        preview: '61-preview.png',
-        url: ['61-1.png', '61-2.png', '61-3.png', '61-4.png', '61-5.png', '61-6.png', '61-7.png'],
-        multi: true
+        preview: '61-preview.webp', url: ['61-1.webp', '61-2.webp', '61-3.webp', '61-4.webp', '61-5.webp', '61-6.webp', '61-7.webp'], multi: true
     },
     {
         value: '60.webp', text: "Double perception",
