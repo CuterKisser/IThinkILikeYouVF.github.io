@@ -323,11 +323,31 @@ const episodes = [
     { value: '43.png', text: 'Spécial DnD - Part 4 - Célébration', description: 'i think i like you VF episode 43 HD', preview: '43-preview.png', url: '43.png' },
     { value: '42.png', text: 'Spécial DnD - Part 3 - Château de la mort', description: 'i think i like you VF episode 42 HD', preview: '42-preview.png', url: '42.png' },
     { value: '41.png', text: 'Spécial DnD - Part 2 - Le Pacte', description: 'i think i like you VF episode 41 HD', preview: '41-preview.png', url: '41.png' },
-    { value: '40.png', text: "Spécial DnD - Part 1 - L'aventure commence !", description: 'i think i like you VF episode 40 HD', preview: '40-preview.png', url: '40.png' },
-    { value: '39.png', text: 'Halloween', description: 'i think i like you VF episode 39 HD', preview: '39-preview.png', url: '39.png' },
-    { value: '38.png', text: "Je t'aime", description: 'i think i like you VF episode 38 HD', preview: '38-preview.png', url: '38.png' },
-    { value: '37.png', text: "Je crois que je t'aime", description: 'i think i like you VF episode 37 HD', preview: '37-preview.png', url: '37.png' },
-    { value: '36.png', text: 'Limite dépassée', description: 'i think i like you VF episode 36 HD', preview: '36-preview.png', url: '36.png' },
+    {
+        value: '40.webp', text: "Spécial DnD - Part 1 - L'aventure commence !",
+        description: 'i think i like you VF episode 40 HD',
+        preview: '40-preview.webp', url: ['40-1.webp', '40-2.webp', '40-3.webp', '40-4.webp'], multi: true
+    },
+    {
+        value: '39.webp', text: "Halloween",
+        description: 'i think i like you VF episode 39 HD',
+        preview: '39-preview.webp', url: ['39-1.webp', '39-2.webp', '39-3.webp', '39-4.webp'], multi: true
+    },
+    {
+        value: '38.webp', text: "Je t'aime",
+        description: 'i think i like you VF episode 38 HD',
+        preview: '38-preview.webp', url: ['38-1.webp', '38-2.webp', '38-3.webp'], multi: true
+    },
+    {
+        value: '37.webp', text: "Je crois que je t'aime",
+        description: 'i think i like you VF episode 37 HD',
+        preview: '37-preview.webp', url: ['37-1.webp', '37-2.webp', '37-3.webp', '37-4.webp', '36-5.webp'], multi: true
+    },
+    {
+        value: '36.webp', text: "Limite dépassée",
+        description: 'i think i like you VF episode 36 HD',
+        preview: '36-preview.webp', url: ['36-1.webp', '36-2.webp', '36-3.webp', '36-4.webp'], multi: true
+    },
     {
         value: '35.webp', text: "Limite atteinte",
         description: 'i think i like you VF episode 35 HD',
