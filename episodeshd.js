@@ -257,11 +257,31 @@ const episodes = [
     { value: '93.png', text: "Virée nocturne", description: 'i think i like you VF episode 93 HD', preview: '93-preview.webp', url: '93.png' },
     { value: '92.png', text: "L'irrésistible Ray", description: 'i think i like you VF episode 92 HD', preview: '92-preview.webp', url: '92.png' },
     { value: '91.png', text: "Excès", description: 'i think i like you VF episode 91 HD', preview: '91-preview.webp', url: '91.png' },
-    { value: '90.png', text: "Faire face", description: 'i think i like you VF episode 90 HD', preview: '90-preview.webp', url: '90.png' },
-    { value: '89unblur.png', text: "Révélation", description: 'i think i like you VF episode 89 HD', preview: '89-preview.webp', url: '89.png' },
-    { value: '88.png', text: "L'homme parfait pour ce job", description: 'i think i like you VF episode 88 HD', preview: '88-preview.webp', url: '88.png' },
-    { value: '87.png', text: "Décisions", description: 'i think i like you VF episode 87 HD', preview: '87-preview.webp', url: '87.png' },
-    { value: '86.png', text: "Seuil critique", description: 'i think i like you VF episode 86 HD', preview: '86-preview.webp', url: '86.png' },
+    {
+        value: '90.webp', text: "Faire face",
+        description: 'i think i like you VF episode 90 HD',
+        preview: '90-preview.webp', url: ['90-1.webp', '90-2.webp', '90-3.webp', '90-4.webp'], multi: true
+    },
+    {
+        value: '89.webp', text: "Révélation",
+        description: 'i think i like you VF episode 89 HD',
+        preview: '89-preview.webp', url: ['89-1.webp', '89-2.webp', '89-3.webp', '89-4.webp'], multi: true
+    },
+    {
+        value: '88.webp', text: "L'homme parfait pour ce job",
+        description: 'i think i like you VF episode 88 HD',
+        preview: '88-preview.webp', url: ['88-1.webp', '88-2.webp', '88-3.webp', '88-4.webp', '88-5.webp'], multi: true
+    },
+    {
+        value: '87.webp', text: "Décisions",
+        description: 'i think i like you VF episode 87 HD',
+        preview: '87-preview.webp', url: ['87-1.webp', '87-2.webp', '87-3.webp', '87-4.webp', '87-5.webp'], multi: true
+    },
+    {
+        value: '86.webp', text: "Seuil critique",
+        description: 'i think i like you VF episode 86 HD',
+        preview: '86-preview.webp', url: ['86-1.webp', '86-2.webp', '86-3.webp', '86-4.webp'], multi: true
+    },
     {
         value: '85.webp', text: "Bandes blanchissantes",
         description: 'i think i like you VF episode 85 HD',
