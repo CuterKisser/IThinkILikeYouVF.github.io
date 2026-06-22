@@ -262,12 +262,32 @@ const episodes = [
     { value: '88.png', text: "L'homme parfait pour ce job", description: 'i think i like you VF episode 88 HD', preview: '88-preview.webp', url: '88.png' },
     { value: '87.png', text: "Décisions", description: 'i think i like you VF episode 87 HD', preview: '87-preview.webp', url: '87.png' },
     { value: '86.png', text: "Seuil critique", description: 'i think i like you VF episode 86 HD', preview: '86-preview.webp', url: '86.png' },
-    { value: '85.png', text: "Bandes blanchissantes", description: 'i think i like you VF episode 85 HD', preview: '85-preview.webp', url: '85.png' },
-    { value: '84.png', text: "Trouvé", description: 'i think i like you VF episode 84 HD', preview: '84-preview.webp', url: '84.png' },
+    {
+        value: '85.webp', text: "Bandes blanchissantes",
+        description: 'i think i like you VF episode 85 HD',
+        preview: '85-preview.webp', url: ['85-1.webp', '85-2.webp', '85-3.webp', '85-4.webp', '85-5.webp'], multi: true
+    },
+    {
+        value: '84.webp', text: "Trouvé",
+        description: 'i think i like you VF episode 84 HD',
+        preview: '84-preview.webp', url: ['84-1.webp', '84-2.webp', '84-3.webp', '84-4.webp'], multi: true
+    },
     { value: '', text: '/\\ Saison 3  /\\', description: 'i think i like you VF HD saison 3', disabled: true },
-    { value: '83.png', text: "Amis", description: 'i think i like you VF episode 83 HD', preview: '83-preview.webp', url: '83.png' },
-    { value: '82.png', text: "Promenade", description: 'i think i like you VF episode 82 HD', preview: '82-preview.webp', url: '82.png' },
-    { value: '81.png', text: "Perdus et Retrouvés", description: 'i think i like you VF episode 81 HD', preview: '81-preview.png', url: '81.png' },
+    {
+        value: '83.webp', text: "Amis",
+        description: 'i think i like you VF episode 83 HD',
+        preview: '83-preview.webp', url: ['83-1.webp', '83-2.webp', '83-3.webp', '83-4.webp', '83-5.webp'], multi: true
+    },
+    {
+        value: '82.webp', text: "Promenade",
+        description: 'i think i like you VF episode 82 HD',
+        preview: '82-preview.webp', url: ['82-1.webp', '82-2.webp', '82-3.webp', '82-4.webp', '82-5.webp'], multi: true
+    },
+    {
+        value: '81.webp', text: "Perdus et Retrouvés",
+        description: 'i think i like you VF episode 81 HD',
+        preview: '81-preview.webp', url: ['81-1.webp', '81-2.webp', '81-3.webp', '81-4.webp'], multi: true
+    },
     {
         value: '80.webp', text: "Fin du voyage",
         description: 'i think i like you VF episode 80 HD',
