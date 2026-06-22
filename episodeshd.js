@@ -242,11 +242,31 @@ const episodes = [
         multi: true
     },
     { value: 'polaroid105.webp', text: "Polaroid #105", description: 'i think i like you VF polaroid n°1', url: 'polaroid105.webp' },
-    { value: '105.png', text: "Réunion", description: 'i think i like you VF episode 105 HD', preview: '105-preview.webp', url: '105.png' },
-    { value: '104.png', text: "Nous arrivons", description: 'i think i like you VF episode 104 HD', preview: '104-preview.webp', url: '104.png' },
-    { value: '103.png', text: 'Leshy', description: 'i think i like you VF episode 103 HD', preview: '103-preview.webp', url: ['103-1.png', '103-2.png'], multi: true },
-    { value: '102.png', text: "Début du voyage", description: 'i think i like you VF episode 102 HD', preview: '102-preview.webp', url: '102.png' },
-    { value: '101.png', text: "Descente", description: 'i think i like you VF episode 101 HD', preview: '101-preview.webp', url: '101.png' },
+    {
+        value: '105.webp', text: "Réunion",
+        description: 'i think i like you VF episode 105 HD',
+        preview: '105-preview.webp', url: ['105-1.webp', '105-2.webp', '105-3.webp', '105-4.webp'], multi: true
+    },
+    {
+        value: '104.webp', text: "Nous arrivons",
+        description: 'i think i like you VF episode 104 HD',
+        preview: '104-preview.webp', url: ['104-1.webp', '104-2.webp', '104-3.webp', '104-4.webp'], multi: true
+    },
+    {
+        value: '103.webp', text: "Leshy",
+        description: 'i think i like you VF episode 103 HD',
+        preview: '103-preview.webp', url: ['103-1.webp', '103-2.webp', '103-3.webp', '103-4.webp'], multi: true
+    },
+    {
+        value: '102.webp', text: "Début du voyage",
+        description: 'i think i like you VF episode 102 HD',
+        preview: '102-preview.webp', url: ['102-1.webp', '102-2.webp', '102-3.webp', '102-4.webp', '102-5.webp', '102-6.webp', '102-7.webp', '102-8.webp'], multi: true
+    },
+    {
+        value: '101.webp', text: "Descente",
+        description: 'i think i like you VF episode 101 HD',
+        preview: '101-preview.webp', url: ['101-1.webp', '101-2.webp', '101-3.webp', '101-4.webp', '101-5.webp'], multi: true
+    },
     {
         value: '100.webp', text: "Bons amis",
         description: 'i think i like you VF episode 100 HD',
