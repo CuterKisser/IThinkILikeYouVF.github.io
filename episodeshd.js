@@ -247,11 +247,31 @@ const episodes = [
     { value: '103.png', text: 'Leshy', description: 'i think i like you VF episode 103 HD', preview: '103-preview.webp', url: ['103-1.png', '103-2.png'], multi: true },
     { value: '102.png', text: "Début du voyage", description: 'i think i like you VF episode 102 HD', preview: '102-preview.webp', url: '102.png' },
     { value: '101.png', text: "Descente", description: 'i think i like you VF episode 101 HD', preview: '101-preview.webp', url: '101.png' },
-    { value: '100.png', text: "Bons amis", description: 'i think i like you VF episode 100 HD', preview: '100-preview.webp', url: '100.png' },
-    { value: '99ff.png', text: "Fête foraine", description: 'i think i like you VF episode 99 HD', preview: '99-preview.webp', url: '99.png' },
-    { value: '98ff.png', text: "Spot habituel", description: 'i think i like you VF episode 98 HD', preview: '98-preview.webp', url: '98.png' },
-    { value: '97.png', text: "Pouvoirs", description: 'i think i like you VF episode 97 HD', preview: '97-preview.webp', url: '97.png' },
-    { value: '96.png', text: "Et tu Brute", description: 'i think i like you VF episode 96 HD', preview: '96-preview.webp', url: '96.png' },
+    {
+        value: '100.webp', text: "Bons amis",
+        description: 'i think i like you VF episode 100 HD',
+        preview: '100-preview.webp', url: ['100-1.webp', '100-2.webp', '100-3.webp'], multi: true
+    },
+    {
+        value: '99.webp', text: "Fête foraine",
+        description: 'i think i like you VF episode 99 HD',
+        preview: '99-preview.webp', url: ['99-1.webp', '99-2.webp', '99-3.webp', '99-4.webp'], multi: true
+    },
+    {
+        value: '98.webp', text: "Spot habituel",
+        description: 'i think i like you VF episode 98 HD',
+        preview: '98-preview.webp', url: ['98-1.webp', '98-2.webp', '98-3.webp'], multi: true
+    },
+    {
+        value: '97.webp', text: "Pouvoirs",
+        description: 'i think i like you VF episode 97 HD',
+        preview: '97-preview.webp', url: ['97-1.webp', '97-2.webp', '97-3.webp'], multi: true
+    },
+    {
+        value: '96.webp', text: "Et tu Brute",
+        description: 'i think i like you VF episode 96 HD',
+        preview: '96-preview.webp', url: ['96-1.webp', '96-2.webp', '96-3.webp'], multi: true
+    },
     {
         value: '95.webp', text: "Inquiet",
         description: 'i think i like you VF episode 95 HD',
