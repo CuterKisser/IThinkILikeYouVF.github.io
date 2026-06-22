@@ -218,28 +218,34 @@ const episodes = [
     { value: 'polaroid111.webp', text: "Polaroid #111", description: 'i think i like you VF polaroid n°7', url: 'polaroid111.webp' },
     { value: '111.png', text: "Thé avec Cerbère", description: 'i think i like you VF episode 111 HD', preview: '111-preview.webp', url: '111.png' },
     { value: 'polaroid110.webp', text: "Polaroid #110", description: 'i think i like you VF polaroid n°6', url: 'polaroid110.webp' },
-    { value: '110.png', text: "Malédictions", description: 'i think i like you VF episode 110 HD', preview: '110-preview.webp', url: '110.png' },
+    {
+        value: '110.webp', text: "Malédictions",
+        description: 'i think i like you VF episode 110 HD',
+        preview: '110-preview.webp', url: ['110-1.webp', '110-2.webp', '110-3.webp'], multi: true
+    },
     { value: 'polaroid109.webp', text: "Polaroid #109", description: 'i think i like you VF polaroid n°5', url: 'polaroid109.webp' },
-    { value: '109.png', text: "Cerbère", description: 'i think i like you VF episode 109 HD', preview: '109-preview.webp', url: '109.png' },
+    {
+        value: '109.webp', text: "Cerbère",
+        description: 'i think i like you VF episode 109 HD',
+        preview: '109-preview.webp', url: ['109-1.webp', '109-2.webp', '109-3.webp', '109-4.webp'], multi: true
+    },
     { value: 'polaroid108.webp', text: "Polaroid #108", description: 'i think i like you VF polaroid n°4', url: 'polaroid108.webp' },
     {
-        value: '108.png',
-        text: 'Nouvelle ville',
+        value: '108.webp', text: "Nouvelle ville",
         description: 'i think i like you VF episode 108 HD',
-        preview: '108-preview.webp',
-        url: ['108-1.png', '108-2.png'],
-        multi: true
+        preview: '108-preview.webp', url: ['108-1.webp', '108-2.webp', '108-3.webp', '108-4.webp', '108-5.webp', '108-6.webp'], multi: true
     },
     { value: 'polaroid107.webp', text: "Polaroid #107", description: 'i think i like you VF polaroid n°3', url: 'polaroid107.webp' },
-    { value: '107.png', text: "Procrastination", description: 'i think i like you VF episode 107 HD', preview: '107-preview.webp', url: '107.png' },
+    {
+        value: '107.webp', text: "Procrastination",
+        description: 'i think i like you VF episode 107 HD',
+        preview: '107-preview.webp', url: ['107-1.webp', '107-2.webp', '107-3.webp', '107-4.webp'], multi: true
+    },
     { value: 'polaroid106.webp', text: "Polaroid #106", description: 'i think i like you VF polaroid n°2', url: 'polaroid106.webp' },
     {
-        value: '106.png',
-        text: 'Le vrai voyage commence',
+        value: '106.webp', text: "Le vrai voyage commence",
         description: 'i think i like you VF episode 106 HD',
-        preview: '106-preview.webp',
-        url: ['106-1.png', '106-2.png'],
-        multi: true
+        preview: '106-preview.webp', url: ['106-1.webp', '106-2.webp', '106-3.webp', '106-4.webp', '106-5.webp', '106-6.webp', '106-7.webp', '106-8.webp'], multi: true
     },
     { value: 'polaroid105.webp', text: "Polaroid #105", description: 'i think i like you VF polaroid n°1', url: 'polaroid105.webp' },
     {
