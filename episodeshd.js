@@ -188,35 +188,34 @@ const episodes = [
     },
     { value: 'polaroid115.webp', text: "Polaroid #115", description: 'i think i like you VF polaroid n°11', url: 'polaroid115.webp' },
     {
-        value: '115.png',
-        text: 'Petit ami protecteur',
+        value: '115.webp', text: "Petit ami protecteur",
         description: 'i think i like you VF episode 115 HD',
-        preview: '115-preview.webp',
-        url: ['115-1.png', '115-2.png'],
-        multi: true
+        preview: '115-preview.webp', url: ['115-1.webp', '115-2.webp', '115-3.webp', '115-4.webp', '115-5.webp', '115-6.webp', '115-7.webp', '115-8.webp'], multi: true
     },
     { value: 'polaroid114.webp', text: "Polaroid #114", description: 'i think i like you VF polaroid n°10', url: 'polaroid114.webp' },
     {
-        value: '114.png',
-        text: 'Anubis',
+        value: '114.webp', text: "Anubis",
         description: 'i think i like you VF episode 114 HD',
-        preview: '114-preview.webp',
-        url: ['114-1.png', '114-2.png'],
-        multi: true
+        preview: '114-preview.webp', url: ['114-1.webp', '114-2.webp', '114-3.webp', '114-4.webp', '114-5.webp', '114-6.webp'], multi: true
     },
     { value: 'polaroid113.webp', text: "Polaroid #113", description: 'i think i like you VF polaroid n°9', url: 'polaroid113.webp' },
     {
-        value: '113.png',
-        text: 'Nouvelle région',
+        value: '113.webp', text: "Nouvelle région",
         description: 'i think i like you VF episode 113 HD',
-        preview: '113-preview.webp',
-        url: ['113-1.png', '113-2.png', '113-3.png'],
-        multi: true
+        preview: '113-preview.webp', url: ['113-1.webp', '113-2.webp', '113-3.webp', '113-4.webp', '113-5.webp', '113-6.webp', '113-7.webp', '113-8.webp', '113-9.webp'], multi: true
     },
     { value: 'polaroid112.webp', text: "Polaroid #112", description: 'i think i like you VF polaroid n°8', url: 'polaroid112.webp' },
-    { value: '112.png', text: "Vote obtenu", description: 'i think i like you VF episode 112 HD', preview: '112-preview.webp', url: '112.png' },
+    {
+        value: '112.webp', text: "Vote obtenu",
+        description: 'i think i like you VF episode 112 HD',
+        preview: '112-preview.webp', url: ['112-1.webp', '112-2.webp', '112-3.webp', '112-4.webp'], multi: true
+    },
     { value: 'polaroid111.webp', text: "Polaroid #111", description: 'i think i like you VF polaroid n°7', url: 'polaroid111.webp' },
-    { value: '111.png', text: "Thé avec Cerbère", description: 'i think i like you VF episode 111 HD', preview: '111-preview.webp', url: '111.png' },
+    {
+        value: '111.webp', text: "Thé avec Cerbère",
+        description: 'i think i like you VF episode 111 HD',
+        preview: '111-preview.webp', url: ['111-1.webp', '111-2.webp', '111-3.webp'], multi: true
+    },
     { value: 'polaroid110.webp', text: "Polaroid #110", description: 'i think i like you VF polaroid n°6', url: 'polaroid110.webp' },
     {
         value: '110.webp', text: "Malédictions",
