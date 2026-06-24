@@ -104,45 +104,30 @@ const episodes = [
         multi: true
     },
     {
-        value: '125.png',
-        text: "Inattendu",
+        value: '125.webp', text: "Inattendu",
         description: 'i think i like you VF episode 125 HD',
-        preview: '125-preview.webp',
-        url: ['125-1.png', '125-2.png'],
-        multi: true
+        preview: '125-preview.webp', url: ['125-1.webp', '125-2.webp', '125-3.webp', '125-4.webp', '125-5.webp'], multi: true
     },
     { value: '', text: '/\\ Saison 4  /\\', description: 'i think i like you VF HD saison 4', disabled: true },
     {
-        value: '124.png',
-        text: "Communication",
+        value: '124.webp', text: "Le park",
         description: 'i think i like you VF episode 124 HD',
-        preview: '124-preview.webp',
-        url: ['124-1.png', '124-2.png'],
-        multi: true
+        preview: '124-preview.webp', url: ['124-1.webp', '124-2.webp', '124-3.webp', '124-4.webp', '124-5.webp', '124-6.webp', '124-7.webp'], multi: true
     },
     {
-        value: '123.png',
-        text: "Le park",
+        value: '123.webp', text: "Le park",
         description: 'i think i like you VF episode 123 HD',
-        preview: '123-preview.webp',
-        url: ['123-1.png', '123-2.png'],
-        multi: true
+        preview: '123-preview.webp', url: ['123-1.webp', '123-2.webp', '123-3.webp', '123-4.webp', '123-5.webp'], multi: true
     },
     {
-        value: '122.png',
-        text: "Aveugle",
+        value: '122.webp', text: "Aveugle",
         description: 'i think i like you VF episode 122 HD',
-        preview: '122-preview.webp',
-        url: ['122-1.png', '122-2.png'],
-        multi: true
+        preview: '122-preview.webp', url: ['122-1.webp', '122-2.webp', '122-3.webp', '122-4.webp', '122-5.webp'], multi: true
     },
     {
-        value: '121.png',
-        text: "Il faut qu'on parle",
+        value: '121.webp', text: "Il faut qu'on parle",
         description: 'i think i like you VF episode 121 HD',
-        preview: '121-preview.webp',
-        url: ['121-1.png', '121-2.png'],
-        multi: true
+        preview: '121-preview.webp', url: ['121-1.webp', '121-2.webp', '121-3.webp', '121-4.webp', '121-5.webp', '121-6.webp'], multi: true
     },
     {
         value: '120.webp', text: "Skatepark",
