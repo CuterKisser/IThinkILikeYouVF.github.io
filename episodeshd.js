@@ -64,44 +64,29 @@ const episodes = [
         multi: true
     },
     {
-        value: '130.png',
-        text: "Le gang de Ray",
+        value: '130.webp', text: "Le gang de Ray",
         description: 'i think i like you VF episode 130 HD',
-        preview: '130-preview.webp',
-        url: ['130-1.png', '130-2.png'],
-        multi: true
+        preview: '130-preview.webp', url: ['130-1.webp', '130-2.webp', '130-3.webp', '130-4.webp', '130-5.webp'], multi: true
     },
     {
-        value: '129.png',
-        text: "Safeword",
+        value: '129.webp', text: "Safeword",
         description: 'i think i like you VF episode 129 HD',
-        preview: '129-preview.webp',
-        url: ['129-1.png', '129-2.png'],
-        multi: true
+        preview: '129-preview.webp', url: ['129-1.webp', '129-2.webp', '129-3.webp', '129-4.webp', '129-5.webp'], multi: true
     },
     {
-        value: '128.png',
-        text: "Il est de retour !",
+        value: '128.webp', text: "Il est de retour !",
         description: 'i think i like you VF episode 128 HD',
-        preview: '128-preview.webp',
-        url: ['128-1.png', '128-2.png'],
-        multi: true
+        preview: '128-preview.webp', url: ['128-1.webp', '128-2.webp', '128-3.webp', '128-4.webp', '128-5.webp'], multi: true
     },
     {
-        value: '127.png',
-        text: "Tempête",
+        value: '127.webp', text: "Tempête",
         description: 'i think i like you VF episode 127 HD',
-        preview: '127-preview.webp',
-        url: ['127-1.png', '127-2.png'],
-        multi: true
+        preview: '127-preview.webp', url: ['127-1.webp', '127-2.webp', '127-3.webp', '127-4.webp', '127-5.webp'], multi: true
     },
     {
-        value: '126.png',
-        text: "Rattraper le temps perdu",
+        value: '126.webp', text: "Rattraper le temps perdu",
         description: 'i think i like you VF episode 126 HD',
-        preview: '126-preview.webp',
-        url: ['126-1.png', '126-2.png'],
-        multi: true
+        preview: '126-preview.webp', url: ['126-1.webp', '126-2.webp', '126-3.webp', '126-4.webp', '126-5.webp', '126-6.webp'], multi: true
     },
     {
         value: '125.webp', text: "Inattendu",
