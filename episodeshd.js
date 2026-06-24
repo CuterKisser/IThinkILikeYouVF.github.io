@@ -24,44 +24,29 @@ const episodes = [
         multi: true
     },
     {
-        value: '135.png',
-        text: "On s'en fout",
+        value: '135.webp', text: "On s'en fout",
         description: 'i think i like you VF episode 135 HD',
-        preview: '135-preview.webp',
-        url: ['135-1.png', '135-2.png'],
-        multi: true
+        preview: '135-preview.webp', url: ['135-1.webp', '135-2.webp', '135-3.webp', '135-4.webp', '135-5.webp'], multi: true
     },
     {
-        value: '134.png',
-        text: "Eau des Fidji",
+        value: '134.webp', text: "Eau des Fidji",
         description: 'i think i like you VF episode 134 HD',
-        preview: '134-preview.webp',
-        url: ['134-1.png', '134-2.png'],
-        multi: true
+        preview: '134-preview.webp', url: ['134-1.webp', '134-2.webp', '134-3.webp', '134-4.webp', '134-5.webp'], multi: true
     },
     {
-        value: '133.png',
-        text: "Point de vue",
+        value: '133.webp', text: "Point de vue",
         description: 'i think i like you VF episode 133 HD',
-        preview: '133-preview.webp',
-        url: ['133-1.png', '133-2.png'],
-        multi: true
+        preview: '133-preview.webp', url: ['133-1.webp', '133-2.webp', '133-3.webp', '133-4.webp', '133-5.webp'], multi: true
     },
     {
-        value: '132.png',
-        text: "Elle est de retour !",
+        value: '132.webp', text: "Elle est de retour !",
         description: 'i think i like you VF episode 132 HD',
-        preview: '132-preview.webp',
-        url: ['132-1.png', '132-2.png'],
-        multi: true
+        preview: '132-preview.webp', url: ['132-1.webp', '132-2.webp', '132-3.webp', '132-4.webp', '132-5.webp'], multi: true
     },
     {
-        value: '131.png',
-        text: "Soirée entre couples",
+        value: '131.webp', text: "Soirée entre couples",
         description: 'i think i like you VF episode 131 HD',
-        preview: '131-preview.webp',
-        url: ['131-1.png', '131-2.png'],
-        multi: true
+        preview: '131-preview.webp', url: ['131-1.webp', '131-2.webp', '131-3.webp', '131-4.webp', '131-5.webp'], multi: true
     },
     {
         value: '130.webp', text: "Le gang de Ray",
