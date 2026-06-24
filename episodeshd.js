@@ -145,46 +145,31 @@ const episodes = [
         multi: true
     },
     {
-        value: '120.png',
-        text: 'Skatepark',
+        value: '120.webp', text: "Skatepark",
         description: 'i think i like you VF episode 120 HD',
-        preview: '120-preview.webp',
-        url: ['120-1.png', '120-2.png'],
-        multi: true
+        preview: '120-preview.webp', url: ['120-1.webp', '120-2.webp', '120-3.webp', '120-4.webp', '120-5.webp'], multi: true
     },
     {
-        value: '119.png',
-        text: 'De retour !',
+        value: '119.webp', text: "De retour !",
         description: 'i think i like you VF episode 119 HD',
-        preview: '119-preview.webp',
-        url: ['119-1.png', '119-2.png'],
-        multi: true
+        preview: '119-preview.webp', url: ['119-1.webp', '119-2.webp', '119-3.webp', '119-4.webp', '119-5.webp'], multi: true
     },
     {
-        value: '118.png',
-        text: 'Le Verdict',
+        value: '118.webp', text: "Le Verdict",
         description: 'i think i like you VF episode 118 HD',
-        preview: '118-preview.webp',
-        url: ['118-1.png', '118-2.png'],
-        multi: true
+        preview: '118-preview.webp', url: ['118-1.webp', '118-2.webp', '118-3.webp', '118-4.webp', '118-5.webp'], multi: true
     },
     { value: 'polaroid117.webp', text: "Polaroid #117", description: 'i think i like you VF polaroid n°13', url: 'polaroid117.webp' },
     {
-        value: '117.png',
-        text: 'Le Procès',
+        value: '117.webp', text: "Le Procès",
         description: 'i think i like you VF episode 117 HD',
-        preview: '117-preview.webp',
-        url: ['117-1.png', '117-2.png'],
-        multi: true
+        preview: '117-preview.webp', url: ['117-1.webp', '117-2.webp', '117-3.webp', '117-4.webp', '117-5.webp', '117-6.webp'], multi: true
     },
     { value: 'polaroid116.webp', text: "Polaroid #116", description: 'i think i like you VF polaroid n°12', url: 'polaroid116.webp' },
     {
-        value: '116.png',
-        text: 'Réunion',
+        value: '116.webp', text: "Réunion",
         description: 'i think i like you VF episode 116 HD',
-        preview: '116-preview.webp',
-        url: ['116-1.png', '116-2.png'],
-        multi: true
+        preview: '116-preview.webp', url: ['116-1.webp', '116-2.webp', '116-3.webp', '116-4.webp', '116-5.webp'], multi: true
     },
     { value: 'polaroid115.webp', text: "Polaroid #115", description: 'i think i like you VF polaroid n°11', url: 'polaroid115.webp' },
     {
