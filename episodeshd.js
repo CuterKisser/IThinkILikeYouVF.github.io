@@ -1,27 +1,18 @@
 const episodes = [
     {
-        value: '138.webp',
-        text: "Sérénade",
+        value: '138.webp', text: "Promenade",
         description: 'i think i like you VF episode 138 HD',
-        preview: '138-preview.webp',
-        url: ['138-1.webp', '138-2.webp', '138-3.webp', '138-4.webp', '138-5.webp', '138-6.webp'],
-        multi: true
+        preview: '138-preview.webp', url: ['138-1.webp', '138-2.webp', '138-3.webp', '138-4.webp', '138-5.webp', '138-6.webp'], multi: true
     },
     {
-        value: '137.png',
-        text: "Promenade",
+        value: '137.webp', text: "Promenade",
         description: 'i think i like you VF episode 137 HD',
-        preview: '137-preview.webp',
-        url: ['137-1.png', '137-2.png'],
-        multi: true
+        preview: '137-preview.webp', url: ['137-1.webp', '137-2.webp', '137-3.webp', '137-4.webp', '137-5.webp'], multi: true
     },
     {
-        value: '136.png',
-        text: "GYM bros",
+        value: '136.webp', text: "GYM bros",
         description: 'i think i like you VF episode 136 HD',
-        preview: '136-preview.webp',
-        url: ['136-1.png', '136-2.png'],
-        multi: true
+        preview: '136-preview.webp', url: ['136-1.webp', '136-2.webp', '136-3.webp', '136-4.webp', '136-5.webp', '136-6.webp'], multi: true
     },
     {
         value: '135.webp', text: "On s'en fout",
