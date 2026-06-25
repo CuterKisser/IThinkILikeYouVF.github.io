@@ -1,6 +1,11 @@
 const episodes = [
+    /*{
+        value: '139.webp', text: "Chasseurs de fantômes",
+        description: 'i think i like you VF episode 139 HD',
+        preview: '139-preview.webp', url: ['139-1.webp', '139-2.webp', '139-3.webp', '139-4.webp', '139-5.webp', '139-6.webp'], multi: true
+    },*/
     {
-        value: '138.webp', text: "Promenade",
+        value: '138.webp', text: "Sérénade",
         description: 'i think i like you VF episode 138 HD',
         preview: '138-preview.webp', url: ['138-1.webp', '138-2.webp', '138-3.webp', '138-4.webp', '138-5.webp', '138-6.webp'], multi: true
     },
@@ -705,6 +710,6 @@ const episodes = [
         description: 'i think i like you VF episode 1 HD',
         preview: '1-preview.webp', url: ['1-1.webp', '1-2.webp'], multi: true
     },
-    { value: 'cover.png', text: 'Cover', description: 'i think i like you VF episode cover', preview: 'cover-preview.png', url: 'cover.png' },
+    { value: 'cover.webp', text: 'Cover', description: 'i think i like you VF episode cover', preview: 'cover-preview.webp', url: 'cover.webp' },
     { value: '', text: '/\\ Saison 1  /\\', description: 'i think i like you VF saison 1 HD', disabled: true }
 ];
