@@ -1,9 +1,9 @@
 const episodes = [
-    /*{
+    {
         value: '139.webp', text: "Chasseurs de fantômes",
         description: 'i think i like you VF episode 139 HD',
         preview: '139-preview.webp', url: ['139-1.webp', '139-2.webp', '139-3.webp', '139-4.webp', '139-5.webp', '139-6.webp'], multi: true
-    },*/
+    },
     {
         value: '138.webp', text: "Sérénade",
         description: 'i think i like you VF episode 138 HD',
