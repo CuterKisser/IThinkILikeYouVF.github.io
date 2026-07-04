@@ -386,3 +386,7 @@ footer {
 .ep-btn {
   font-family: 'Quicksand', sans-serif;
 }
+
+nav a:last-child {
+  margin-left: 60px;
+}
