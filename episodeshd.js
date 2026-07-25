@@ -1,5 +1,10 @@
 const episodes = [
     {
+        value: '143.webp', text: "Air frais",
+        description: 'i think i like you VF episode 143 HD',
+        preview: '143-preview.webp', url: ['143-1.webp', '143-2.webp', '143-3.webp', '143-4.webp', '143-5.webp', '143-6.webp'], multi: true
+    },
+    {
         value: '142.webp', text: "Le chat de Pavlov",
         description: 'i think i like you VF episode 142 HD',
         preview: '142-preview.webp', url: ['142-1.webp', '142-2.webp', '142-3.webp', '142-4.webp', '142-5.webp'], multi: true
