@@ -1,5 +1,10 @@
 const episodes = [
     {
+        value: '149.webp', text: "Deux pas en arrière",
+        description: 'i think i like you VF episode 149 HD',
+        preview: '149-preview.webp', url: ['149-1.webp', '149-2.webp', '149-3.webp', '149-4.webp', '149-5.webp'], multi: true
+    },
+    {
         value: '148.webp', text: "Problème résolu",
         description: 'i think i like you VF episode 148 HD',
         preview: '148-preview.webp', url: ['148-1.webp', '148-2.webp', '148-3.webp', '148-4.webp', '148-5.webp'], multi: true
