@@ -1,5 +1,10 @@
 const episodes = [
     {
+        value: '152.webp', text: "Sous tes yeux",
+        description: 'i think i like you VF episode 152 HD',
+        preview: '152-preview.webp', url: ['152-1.webp', '152-2.webp', '152-3.webp', '152-4.webp', '152-5.webp'], multi: true
+    },
+    {
         value: '151.webp', text: "Qui a laissé sortir les matous ?",
         description: 'i think i like you VF episode 151 HD',
         preview: '151-preview.webp', url: ['151-1.webp', '151-2.webp', '151-3.webp', '151-4.webp', '151-5.webp', '151-6.webp', '151-7.webp', '151-8.webp', '151-9.webp', '151-10.webp', '151-11.webp', '151-12.webp', '151-michis.gif', '151-13.webp'], multi: true
